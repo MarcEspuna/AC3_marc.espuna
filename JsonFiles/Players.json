@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Redgar",
+    "hp": "64",
+    "ac": "22",
+    "class": "Fighter",
+    "xp": "65,900",
+    "gold": "71",
+    "Potion Charges": "2",
+    "actions": [
+      "13,4d8,piercing",
+      "12,3d10,slashing"
+    ]
+  },
+  {
+    "name": "Jozan",
+    "hp": "56",
+    "ac": "28",
+    "class": "Cleric",
+    "xp": "64,750",
+    "gold": "75",
+    "Potion Charges": "2",
+    "actions": [
+      "16,6d8,lightning",
+      "11,4d6,slashing",
+      "6,4d4,slashing"
+    ]
+  },
+  {
+    "name": "Lidda",
+    "hp": "48",
+    "ac": "18",
+    "class": "Rogue",
+    "xp": "69,420",
+    "gold": "80",
+    "Potion Charges": "2",
+    "actions": [
+      "22,10d6,piercing",
+      "10,5d8,poison"
+    ]
+  },
+  {
+    "name": "Mialee",
+    "hp": "41",
+    "ac": "28",
+    "class": "Mage",
+    "xp": "90,470",
+    "gold": "71",
+    "Potion Charges": "2",
+    "actions": [
+      "16,3d12,fire",
+      "11,3d12,fire",
+      "30,14d4,force"
+    ]
+  }
+]

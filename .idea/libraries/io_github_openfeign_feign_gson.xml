@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="io.github.openfeign.feign.gson" type="repository">
+    <properties maven-id="io.github.openfeign:feign-gson:11.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-gson/11.7/feign-gson-11.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/11.7/feign-core-11.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

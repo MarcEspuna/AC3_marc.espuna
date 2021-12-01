@@ -1,0 +1,3951 @@
+[
+  {
+    "name": "Aboleth",
+    "hp": "135",
+    "ac": "17",
+    "xp": "5,900",
+    "gold": "255",
+    "fleeChance": "10%",
+    "actions": [
+      "17,2d4,piercing",
+      "12,3d4,slashing"
+    ]
+  },
+  {
+    "name": "Acolyte",
+    "hp": "9",
+    "ac": "10",
+    "xp": "50",
+    "gold": "15",
+    "fleeChance": "9%",
+    "actions": [
+      "13,5d8,poison"
+    ]
+  },
+  {
+    "name": "Adult Black Dragon",
+    "hp": "195",
+    "ac": "19",
+    "xp": "11,500",
+    "gold": "1641",
+    "fleeChance": "2%",
+    "actions": [
+      "21,3d6,acid",
+      "16,1d12,acid",
+      "11,7d12,lightning",
+      "6,6d8,cold"
+    ]
+  },
+  {
+    "name": "Adult Blue Dragon",
+    "hp": "225",
+    "ac": "19",
+    "xp": "15,000",
+    "gold": "833",
+    "fleeChance": "3%",
+    "actions": [
+      "21,5d10,cold",
+      "16,4d10,bludgeoning",
+      "11,4d20,necrotic",
+      "6,3d10,acid",
+      "1,1d12,radiant"
+    ]
+  },
+  {
+    "name": "Adult Brass Dragon",
+    "hp": "172",
+    "ac": "18",
+    "xp": "10,000",
+    "gold": "1624",
+    "fleeChance": "21%",
+    "actions": [
+      "21,5d4,psychic",
+      "16,8d20,lightning"
+    ]
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "hp": "212",
+    "ac": "19",
+    "xp": "13,000",
+    "gold": "1540",
+    "fleeChance": "9%",
+    "actions": [
+      "20,1d8,lightning",
+      "15,1d6,force",
+      "10,1d10,thunder",
+      "5,9d6,piercing",
+      "0,4d6,slashing"
+    ]
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "hp": "184",
+    "ac": "18",
+    "xp": "11,500",
+    "gold": "269",
+    "fleeChance": "19%",
+    "actions": [
+      "21,8d12,poison",
+      "16,3d6,slashing"
+    ]
+  },
+  {
+    "name": "Adult Gold Dragon",
+    "hp": "256",
+    "ac": "19",
+    "xp": "18,000",
+    "gold": "693",
+    "fleeChance": "22%",
+    "actions": [
+      "22,9d10,cold",
+      "17,2d20,piercing",
+      "12,5d10,force"
+    ]
+  },
+  {
+    "name": "Adult Green Dragon",
+    "hp": "207",
+    "ac": "19",
+    "xp": "13,000",
+    "gold": "1548",
+    "fleeChance": "14%",
+    "actions": [
+      "19,8d6,lightning",
+      "14,7d12,psychic",
+      "9,2d8,acid",
+      "4,1d8,lightning"
+    ]
+  },
+  {
+    "name": "Adult Red Dragon",
+    "hp": "256",
+    "ac": "19",
+    "xp": "18,000",
+    "gold": "2287",
+    "fleeChance": "18%",
+    "actions": [
+      "22,4d8,acid",
+      "17,6d10,acid",
+      "12,1d12,piercing"
+    ]
+  },
+  {
+    "name": "Adult Silver Dragon",
+    "hp": "243",
+    "ac": "19",
+    "xp": "15,000",
+    "gold": "1819",
+    "fleeChance": "24%",
+    "actions": [
+      "19,9d6,bludgeoning",
+      "14,8d20,piercing",
+      "9,5d6,thunder"
+    ]
+  },
+  {
+    "name": "Adult White Dragon",
+    "hp": "200",
+    "ac": "18",
+    "xp": "10,000",
+    "gold": "1023",
+    "fleeChance": "5%",
+    "actions": [
+      "18,1d10,lightning",
+      "13,7d20,psychic"
+    ]
+  },
+  {
+    "name": "Air Elemental",
+    "hp": "90",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "591",
+    "fleeChance": "21%",
+    "actions": [
+      "16,1d12,acid",
+      "11,6d10,lightning"
+    ]
+  },
+  {
+    "name": "Allosaurus",
+    "hp": "51",
+    "ac": "13",
+    "xp": "450",
+    "gold": "97",
+    "fleeChance": "7%",
+    "actions": [
+      "13,4d4,poison"
+    ]
+  },
+  {
+    "name": "Ancient Black Dragon",
+    "hp": "367",
+    "ac": "22",
+    "xp": "33,000",
+    "gold": "1817",
+    "fleeChance": "13%",
+    "actions": [
+      "24,6d10,thunder",
+      "19,8d20,cold"
+    ]
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "hp": "481",
+    "ac": "22",
+    "xp": "50,000",
+    "gold": "1563",
+    "fleeChance": "10%",
+    "actions": [
+      "22,10d12,psychic",
+      "17,10d8,radiant"
+    ]
+  },
+  {
+    "name": "Ancient Brass Dragon",
+    "hp": "297",
+    "ac": "20",
+    "xp": "25,000",
+    "gold": "2302",
+    "fleeChance": "19%",
+    "actions": [
+      "20,6d10,acid",
+      "15,8d12,poison"
+    ]
+  },
+  {
+    "name": "Ancient Bronze Dragon",
+    "hp": "444",
+    "ac": "22",
+    "xp": "41,000",
+    "gold": "2091",
+    "fleeChance": "12%",
+    "actions": [
+      "24,5d20,necrotic",
+      "19,2d20,necrotic"
+    ]
+  },
+  {
+    "name": "Ancient Copper Dragon",
+    "hp": "350",
+    "ac": "21",
+    "xp": "33,000",
+    "gold": "1919",
+    "fleeChance": "23%",
+    "actions": [
+      "22,2d20,bludgeoning",
+      "17,7d6,cold",
+      "12,9d20,lightning",
+      "7,2d8,necrotic",
+      "2,8d6,poison"
+    ]
+  },
+  {
+    "name": "Ancient Gold Dragon",
+    "hp": "546",
+    "ac": "22",
+    "xp": "62,000",
+    "gold": "3469",
+    "fleeChance": "6%",
+    "actions": [
+      "23,5d6,poison",
+      "18,6d12,radiant",
+      "13,2d10,force",
+      "8,8d12,force"
+    ]
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "hp": "385",
+    "ac": "21",
+    "xp": "41,000",
+    "gold": "2556",
+    "fleeChance": "6%",
+    "actions": [
+      "22,8d4,acid",
+      "17,5d20,bludgeoning",
+      "12,4d8,thunder",
+      "7,9d20,force",
+      "2,5d6,force"
+    ]
+  },
+  {
+    "name": "Ancient Red Dragon",
+    "hp": "546",
+    "ac": "22",
+    "xp": "62,000",
+    "gold": "3016",
+    "fleeChance": "17%",
+    "actions": [
+      "24,9d10,psychic",
+      "19,5d4,slashing",
+      "14,3d20,psychic"
+    ]
+  },
+  {
+    "name": "Ancient Silver Dragon",
+    "hp": "487",
+    "ac": "22",
+    "xp": "50,000",
+    "gold": "4493",
+    "fleeChance": "10%",
+    "actions": [
+      "24,4d4,radiant",
+      "19,5d20,force",
+      "14,6d20,poison",
+      "9,4d12,fire",
+      "4,1d6,thunder"
+    ]
+  },
+  {
+    "name": "Ancient White Dragon",
+    "hp": "333",
+    "ac": "20",
+    "xp": "25,000",
+    "gold": "2152",
+    "fleeChance": "11%",
+    "actions": [
+      "21,7d20,radiant",
+      "16,6d20,acid",
+      "11,2d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Androsphinx",
+    "hp": "199",
+    "ac": "17",
+    "xp": "18,000",
+    "gold": "961",
+    "fleeChance": "19%",
+    "actions": [
+      "20,2d6,bludgeoning",
+      "15,3d4,thunder",
+      "10,6d8,force"
+    ]
+  },
+  {
+    "name": "Animated Armor",
+    "hp": "33",
+    "ac": "18",
+    "xp": "200",
+    "gold": "181",
+    "fleeChance": "21%",
+    "actions": [
+      "18,3d8,radiant",
+      "13,4d8,cold",
+      "8,7d8,necrotic",
+      "3,9d20,force",
+      "-2,9d20,slashing"
+    ]
+  },
+  {
+    "name": "Ankheg",
+    "hp": "39",
+    "ac": "14",
+    "xp": "450",
+    "gold": "59",
+    "fleeChance": "5%",
+    "actions": [
+      "17,5d8,psychic"
+    ]
+  },
+  {
+    "name": "Ankylosaurus",
+    "hp": "68",
+    "ac": "15",
+    "xp": "700",
+    "gold": "353",
+    "fleeChance": "11%",
+    "actions": [
+      "16,5d6,radiant"
+    ]
+  },
+  {
+    "name": "Ape",
+    "hp": "19",
+    "ac": "12",
+    "xp": "100",
+    "gold": "143",
+    "fleeChance": "12%",
+    "actions": [
+      "15,5d20,force",
+      "10,2d8,slashing",
+      "5,1d4,necrotic",
+      "0,4d20,force"
+    ]
+  },
+  {
+    "name": "Archmage",
+    "hp": "99",
+    "ac": "12",
+    "xp": "8,400",
+    "gold": "245",
+    "fleeChance": "11%",
+    "actions": [
+      "12,1d6,fire"
+    ]
+  },
+  {
+    "name": "Assassin",
+    "hp": "78",
+    "ac": "15",
+    "xp": "3,900",
+    "gold": "482",
+    "fleeChance": "15%",
+    "actions": [
+      "15,4d10,necrotic",
+      "10,6d6,cold",
+      "5,6d12,cold",
+      "0,4d12,fire"
+    ]
+  },
+  {
+    "name": "Awakened Shrub",
+    "hp": "10",
+    "ac": "9",
+    "xp": "10",
+    "gold": "46",
+    "fleeChance": "21%",
+    "actions": [
+      "12,1d20,lightning"
+    ]
+  },
+  {
+    "name": "Awakened Tree",
+    "hp": "59",
+    "ac": "13",
+    "xp": "450",
+    "gold": "647",
+    "fleeChance": "24%",
+    "actions": [
+      "14,6d4,fire"
+    ]
+  },
+  {
+    "name": "Axe Beak",
+    "hp": "19",
+    "ac": "11",
+    "xp": "50",
+    "gold": "195",
+    "fleeChance": "21%",
+    "actions": [
+      "13,3d6,thunder"
+    ]
+  },
+  {
+    "name": "Azer",
+    "hp": "39",
+    "ac": "17",
+    "xp": "450",
+    "gold": "200",
+    "fleeChance": "2%",
+    "actions": [
+      "17,4d8,thunder"
+    ]
+  },
+  {
+    "name": "Baboon",
+    "hp": "3",
+    "ac": "12",
+    "xp": "10",
+    "gold": "24",
+    "fleeChance": "9%",
+    "actions": [
+      "14,6d10,fire"
+    ]
+  },
+  {
+    "name": "Badger",
+    "hp": "3",
+    "ac": "10",
+    "xp": "10",
+    "gold": "24",
+    "fleeChance": "11%",
+    "actions": [
+      "10,3d6,necrotic"
+    ]
+  },
+  {
+    "name": "Balor",
+    "hp": "262",
+    "ac": "19",
+    "xp": "22,000",
+    "gold": "974",
+    "fleeChance": "2%",
+    "actions": [
+      "20,6d20,acid",
+      "15,2d6,radiant"
+    ]
+  },
+  {
+    "name": "Bandit",
+    "hp": "11",
+    "ac": "12",
+    "xp": "25",
+    "gold": "59",
+    "fleeChance": "13%",
+    "actions": [
+      "12,1d12,necrotic"
+    ]
+  },
+  {
+    "name": "Bandit Captain",
+    "hp": "65",
+    "ac": "15",
+    "xp": "450",
+    "gold": "598",
+    "fleeChance": "21%",
+    "actions": [
+      "15,1d8,thunder",
+      "10,4d20,fire",
+      "5,7d20,lightning",
+      "0,1d8,psychic",
+      "-5,7d12,acid"
+    ]
+  },
+  {
+    "name": "Banshee",
+    "hp": "58",
+    "ac": "12",
+    "xp": "1,100",
+    "gold": "216",
+    "fleeChance": "7%",
+    "actions": [
+      "12,3d20,fire"
+    ]
+  },
+  {
+    "name": "Barbed Devil",
+    "hp": "110",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "237",
+    "fleeChance": "11%",
+    "actions": [
+      "17,7d20,cold",
+      "12,1d20,radiant",
+      "7,5d20,acid",
+      "2,2d6,thunder",
+      "-3,1d8,thunder"
+    ]
+  },
+  {
+    "name": "Basilisk",
+    "hp": "52",
+    "ac": "15",
+    "xp": "700",
+    "gold": "318",
+    "fleeChance": "21%",
+    "actions": [
+      "15,5d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Bat",
+    "hp": "1",
+    "ac": "12",
+    "xp": "10",
+    "gold": "2",
+    "fleeChance": "16%",
+    "actions": [
+      "13,4d10,piercing"
+    ]
+  },
+  {
+    "name": "Bearded Devil",
+    "hp": "52",
+    "ac": "13",
+    "xp": "700",
+    "gold": "109",
+    "fleeChance": "10%",
+    "actions": [
+      "14,2d10,lightning",
+      "9,5d20,thunder"
+    ]
+  },
+  {
+    "name": "Behir",
+    "hp": "168",
+    "ac": "17",
+    "xp": "7,200",
+    "gold": "211",
+    "fleeChance": "13%",
+    "actions": [
+      "18,8d12,piercing",
+      "13,7d12,thunder",
+      "8,2d6,fire",
+      "3,7d4,acid",
+      "-2,1d10,lightning"
+    ]
+  },
+  {
+    "name": "Berserker",
+    "hp": "67",
+    "ac": "13",
+    "xp": "450",
+    "gold": "403",
+    "fleeChance": "17%",
+    "actions": [
+      "13,6d12,cold"
+    ]
+  },
+  {
+    "name": "Black Bear",
+    "hp": "19",
+    "ac": "11",
+    "xp": "100",
+    "gold": "61",
+    "fleeChance": "22%",
+    "actions": [
+      "12,1d10,bludgeoning",
+      "7,5d20,psychic",
+      "2,2d8,psychic",
+      "-3,2d10,necrotic",
+      "-8,2d20,force"
+    ]
+  },
+  {
+    "name": "Black Dragon Wyrmling",
+    "hp": "33",
+    "ac": "17",
+    "xp": "450",
+    "gold": "314",
+    "fleeChance": "17%",
+    "actions": [
+      "17,1d6,psychic"
+    ]
+  },
+  {
+    "name": "Black Pudding",
+    "hp": "85",
+    "ac": "7",
+    "xp": "1,100",
+    "gold": "271",
+    "fleeChance": "13%",
+    "actions": [
+      "9,3d4,poison"
+    ]
+  },
+  {
+    "name": "Blink Dog",
+    "hp": "22",
+    "ac": "13",
+    "xp": "50",
+    "gold": "23",
+    "fleeChance": "11%",
+    "actions": [
+      "16,6d6,slashing"
+    ]
+  },
+  {
+    "name": "Blood Hawk",
+    "hp": "7",
+    "ac": "12",
+    "xp": "25",
+    "gold": "72",
+    "fleeChance": "25%",
+    "actions": [
+      "14,5d8,psychic"
+    ]
+  },
+  {
+    "name": "Blue Dragon Wyrmling",
+    "hp": "52",
+    "ac": "17",
+    "xp": "700",
+    "gold": "342",
+    "fleeChance": "14%",
+    "actions": [
+      "19,6d20,force"
+    ]
+  },
+  {
+    "name": "Boar",
+    "hp": "11",
+    "ac": "11",
+    "xp": "50",
+    "gold": "16",
+    "fleeChance": "4%",
+    "actions": [
+      "12,3d10,force"
+    ]
+  },
+  {
+    "name": "Bone Devil",
+    "hp": "142",
+    "ac": "19",
+    "xp": "5,000",
+    "gold": "217",
+    "fleeChance": "18%",
+    "actions": [
+      "19,1d10,bludgeoning",
+      "14,4d8,psychic",
+      "9,9d8,cold"
+    ]
+  },
+  {
+    "name": "Brass Dragon Wyrmling",
+    "hp": "16",
+    "ac": "16",
+    "xp": "200",
+    "gold": "20",
+    "fleeChance": "2%",
+    "actions": [
+      "19,1d6,fire"
+    ]
+  },
+  {
+    "name": "Bronze Dragon Wyrmling",
+    "hp": "32",
+    "ac": "17",
+    "xp": "450",
+    "gold": "256",
+    "fleeChance": "24%",
+    "actions": [
+      "18,7d8,cold"
+    ]
+  },
+  {
+    "name": "Brown Bear",
+    "hp": "34",
+    "ac": "11",
+    "xp": "200",
+    "gold": "330",
+    "fleeChance": "8%",
+    "actions": [
+      "14,1d10,piercing",
+      "9,4d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Bugbear",
+    "hp": "27",
+    "ac": "16",
+    "xp": "200",
+    "gold": "184",
+    "fleeChance": "17%",
+    "actions": [
+      "17,8d8,poison"
+    ]
+  },
+  {
+    "name": "Bulette",
+    "hp": "94",
+    "ac": "17",
+    "xp": "1,800",
+    "gold": "553",
+    "fleeChance": "23%",
+    "actions": [
+      "20,5d4,lightning"
+    ]
+  },
+  {
+    "name": "Camel",
+    "hp": "15",
+    "ac": "9",
+    "xp": "25",
+    "gold": "73",
+    "fleeChance": "5%",
+    "actions": [
+      "12,2d12,slashing"
+    ]
+  },
+  {
+    "name": "Cat",
+    "hp": "2",
+    "ac": "12",
+    "xp": "10",
+    "gold": "3",
+    "fleeChance": "8%",
+    "actions": [
+      "15,6d10,lightning"
+    ]
+  },
+  {
+    "name": "Centaur",
+    "hp": "45",
+    "ac": "12",
+    "xp": "450",
+    "gold": "229",
+    "fleeChance": "17%",
+    "actions": [
+      "14,2d4,thunder",
+      "9,1d20,lightning",
+      "4,2d4,fire",
+      "-1,2d6,necrotic",
+      "-6,1d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Chain Devil",
+    "hp": "85",
+    "ac": "16",
+    "xp": "3,900",
+    "gold": "821",
+    "fleeChance": "21%",
+    "actions": [
+      "17,1d12,slashing",
+      "12,8d4,lightning",
+      "7,7d12,piercing"
+    ]
+  },
+  {
+    "name": "Chimera",
+    "hp": "114",
+    "ac": "14",
+    "xp": "2,300",
+    "gold": "482",
+    "fleeChance": "16%",
+    "actions": [
+      "17,6d8,lightning",
+      "12,5d20,fire"
+    ]
+  },
+  {
+    "name": "Chuul",
+    "hp": "93",
+    "ac": "16",
+    "xp": "1,100",
+    "gold": "410",
+    "fleeChance": "14%",
+    "actions": [
+      "18,8d4,fire",
+      "13,6d12,necrotic",
+      "8,8d12,thunder",
+      "3,5d12,force"
+    ]
+  },
+  {
+    "name": "Clay Golem",
+    "hp": "133",
+    "ac": "14",
+    "xp": "5,000",
+    "gold": "620",
+    "fleeChance": "17%",
+    "actions": [
+      "14,4d4,poison",
+      "9,4d12,slashing",
+      "4,4d10,poison",
+      "-1,6d8,radiant",
+      "-6,2d20,slashing"
+    ]
+  },
+  {
+    "name": "Cloaker",
+    "hp": "78",
+    "ac": "14",
+    "xp": "3,900",
+    "gold": "732",
+    "fleeChance": "13%",
+    "actions": [
+      "17,7d10,slashing",
+      "12,3d20,psychic"
+    ]
+  },
+  {
+    "name": "Cloud Giant",
+    "hp": "200",
+    "ac": "14",
+    "xp": "5,000",
+    "gold": "1175",
+    "fleeChance": "11%",
+    "actions": [
+      "16,1d8,fire",
+      "11,5d8,fire",
+      "6,5d20,necrotic",
+      "1,6d10,acid"
+    ]
+  },
+  {
+    "name": "Cockatrice",
+    "hp": "27",
+    "ac": "11",
+    "xp": "100",
+    "gold": "258",
+    "fleeChance": "2%",
+    "actions": [
+      "12,1d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Commoner",
+    "hp": "4",
+    "ac": "10",
+    "xp": "10",
+    "gold": "43",
+    "fleeChance": "25%",
+    "actions": [
+      "11,4d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Constrictor Snake",
+    "hp": "13",
+    "ac": "12",
+    "xp": "50",
+    "gold": "55",
+    "fleeChance": "4%",
+    "actions": [
+      "12,4d6,lightning"
+    ]
+  },
+  {
+    "name": "Copper Dragon Wyrmling",
+    "hp": "22",
+    "ac": "16",
+    "xp": "200",
+    "gold": "212",
+    "fleeChance": "15%",
+    "actions": [
+      "17,7d20,thunder"
+    ]
+  },
+  {
+    "name": "Couatl",
+    "hp": "97",
+    "ac": "19",
+    "xp": "1,100",
+    "gold": "613",
+    "fleeChance": "6%",
+    "actions": [
+      "20,5d20,poison"
+    ]
+  },
+  {
+    "name": "Crab",
+    "hp": "2",
+    "ac": "11",
+    "xp": "10",
+    "gold": "14",
+    "fleeChance": "5%",
+    "actions": [
+      "12,2d20,necrotic"
+    ]
+  },
+  {
+    "name": "Crocodile",
+    "hp": "19",
+    "ac": "12",
+    "xp": "100",
+    "gold": "39",
+    "fleeChance": "25%",
+    "actions": [
+      "14,2d6,necrotic"
+    ]
+  },
+  {
+    "name": "Cult Fanatic",
+    "hp": "33",
+    "ac": "13",
+    "xp": "450",
+    "gold": "313",
+    "fleeChance": "24%",
+    "actions": [
+      "16,4d12,piercing",
+      "11,5d4,psychic",
+      "6,3d6,slashing"
+    ]
+  },
+  {
+    "name": "Cultist",
+    "hp": "9",
+    "ac": "12",
+    "xp": "25",
+    "gold": "57",
+    "fleeChance": "6%",
+    "actions": [
+      "13,2d8,poison"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "hp": "138",
+    "ac": "14",
+    "xp": "2,300",
+    "gold": "724",
+    "fleeChance": "2%",
+    "actions": [
+      "16,7d6,slashing",
+      "11,4d6,acid",
+      "6,2d20,fire"
+    ]
+  },
+  {
+    "name": "Darkmantle",
+    "hp": "22",
+    "ac": "11",
+    "xp": "100",
+    "gold": "97",
+    "fleeChance": "12%",
+    "actions": [
+      "13,3d6,thunder"
+    ]
+  },
+  {
+    "name": "Death Dog",
+    "hp": "39",
+    "ac": "12",
+    "xp": "200",
+    "gold": "103",
+    "fleeChance": "3%",
+    "actions": [
+      "14,2d20,bludgeoning",
+      "9,1d12,slashing",
+      "4,5d4,force",
+      "-1,1d20,poison",
+      "-6,1d6,fire"
+    ]
+  },
+  {
+    "name": "Deep Gnome (Svirfneblin)",
+    "hp": "16",
+    "ac": "15",
+    "xp": "100",
+    "gold": "79",
+    "fleeChance": "12%",
+    "actions": [
+      "18,2d4,psychic"
+    ]
+  },
+  {
+    "name": "Deer",
+    "hp": "4",
+    "ac": "13",
+    "xp": "10",
+    "gold": "43",
+    "fleeChance": "18%",
+    "actions": [
+      "14,3d10,psychic"
+    ]
+  },
+  {
+    "name": "Deva",
+    "hp": "136",
+    "ac": "17",
+    "xp": "5,900",
+    "gold": "1309",
+    "fleeChance": "16%",
+    "actions": [
+      "17,4d6,psychic",
+      "12,5d4,piercing"
+    ]
+  },
+  {
+    "name": "Dire Wolf",
+    "hp": "37",
+    "ac": "14",
+    "xp": "200",
+    "gold": "347",
+    "fleeChance": "13%",
+    "actions": [
+      "16,2d8,psychic"
+    ]
+  },
+  {
+    "name": "Djinni",
+    "hp": "161",
+    "ac": "17",
+    "xp": "7,200",
+    "gold": "874",
+    "fleeChance": "25%",
+    "actions": [
+      "17,8d12,acid",
+      "12,7d20,fire",
+      "7,3d6,fire"
+    ]
+  },
+  {
+    "name": "Doppelganger",
+    "hp": "52",
+    "ac": "14",
+    "xp": "700",
+    "gold": "561",
+    "fleeChance": "3%",
+    "actions": [
+      "14,2d4,force",
+      "9,7d6,slashing",
+      "4,7d20,psychic"
+    ]
+  },
+  {
+    "name": "Draft Horse",
+    "hp": "19",
+    "ac": "10",
+    "xp": "50",
+    "gold": "66",
+    "fleeChance": "3%",
+    "actions": [
+      "13,1d12,cold"
+    ]
+  },
+  {
+    "name": "Dragon Turtle",
+    "hp": "341",
+    "ac": "20",
+    "xp": "18,000",
+    "gold": "1620",
+    "fleeChance": "16%",
+    "actions": [
+      "23,5d20,slashing",
+      "18,6d6,radiant",
+      "13,2d20,poison",
+      "8,8d6,fire"
+    ]
+  },
+  {
+    "name": "Dretch",
+    "hp": "18",
+    "ac": "11",
+    "xp": "50",
+    "gold": "159",
+    "fleeChance": "10%",
+    "actions": [
+      "13,5d8,lightning",
+      "8,2d4,bludgeoning",
+      "3,5d20,radiant"
+    ]
+  },
+  {
+    "name": "Drider",
+    "hp": "123",
+    "ac": "19",
+    "xp": "2,300",
+    "gold": "689",
+    "fleeChance": "17%",
+    "actions": [
+      "21,1d4,necrotic",
+      "16,2d10,psychic"
+    ]
+  },
+  {
+    "name": "Drow",
+    "hp": "13",
+    "ac": "15",
+    "xp": "50",
+    "gold": "116",
+    "fleeChance": "13%",
+    "actions": [
+      "16,5d12,force"
+    ]
+  },
+  {
+    "name": "Druid",
+    "hp": "27",
+    "ac": "11",
+    "xp": "450",
+    "gold": "64",
+    "fleeChance": "4%",
+    "actions": [
+      "12,5d4,cold"
+    ]
+  },
+  {
+    "name": "Dryad",
+    "hp": "22",
+    "ac": "11",
+    "xp": "200",
+    "gold": "132",
+    "fleeChance": "14%",
+    "actions": [
+      "11,3d4,radiant"
+    ]
+  },
+  {
+    "name": "Duergar",
+    "hp": "26",
+    "ac": "16",
+    "xp": "200",
+    "gold": "195",
+    "fleeChance": "17%",
+    "actions": [
+      "19,2d12,slashing"
+    ]
+  },
+  {
+    "name": "Dust Mephit",
+    "hp": "17",
+    "ac": "12",
+    "xp": "100",
+    "gold": "54",
+    "fleeChance": "13%",
+    "actions": [
+      "13,2d20,cold"
+    ]
+  },
+  {
+    "name": "Eagle",
+    "hp": "3",
+    "ac": "12",
+    "xp": "10",
+    "gold": "4",
+    "fleeChance": "12%",
+    "actions": [
+      "13,2d6,cold"
+    ]
+  },
+  {
+    "name": "Earth Elemental",
+    "hp": "126",
+    "ac": "17",
+    "xp": "1,800",
+    "gold": "1348",
+    "fleeChance": "24%",
+    "actions": [
+      "19,7d4,poison",
+      "14,7d4,acid",
+      "9,6d20,fire"
+    ]
+  },
+  {
+    "name": "Efreeti",
+    "hp": "200",
+    "ac": "17",
+    "xp": "7,200",
+    "gold": "279",
+    "fleeChance": "18%",
+    "actions": [
+      "17,3d10,cold",
+      "12,2d12,thunder",
+      "7,6d20,fire",
+      "2,3d20,slashing",
+      "-3,6d12,lightning"
+    ]
+  },
+  {
+    "name": "Elephant",
+    "hp": "76",
+    "ac": "12",
+    "xp": "1,100",
+    "gold": "792",
+    "fleeChance": "17%",
+    "actions": [
+      "13,3d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Elk",
+    "hp": "13",
+    "ac": "10",
+    "xp": "50",
+    "gold": "60",
+    "fleeChance": "6%",
+    "actions": [
+      "13,1d12,thunder"
+    ]
+  },
+  {
+    "name": "Erinyes",
+    "hp": "153",
+    "ac": "18",
+    "xp": "8,400",
+    "gold": "528",
+    "fleeChance": "19%",
+    "actions": [
+      "21,6d10,necrotic",
+      "16,2d12,slashing",
+      "11,9d6,poison",
+      "6,8d20,fire",
+      "1,7d12,lightning"
+    ]
+  },
+  {
+    "name": "Ettercap",
+    "hp": "44",
+    "ac": "13",
+    "xp": "450",
+    "gold": "54",
+    "fleeChance": "20%",
+    "actions": [
+      "16,4d6,poison",
+      "11,3d12,necrotic",
+      "6,5d6,lightning"
+    ]
+  },
+  {
+    "name": "Ettin",
+    "hp": "85",
+    "ac": "12",
+    "xp": "1,100",
+    "gold": "322",
+    "fleeChance": "1%",
+    "actions": [
+      "15,2d10,acid",
+      "10,1d12,piercing",
+      "5,1d20,radiant",
+      "0,1d20,acid"
+    ]
+  },
+  {
+    "name": "Fire Elemental",
+    "hp": "102",
+    "ac": "13",
+    "xp": "1,800",
+    "gold": "1011",
+    "fleeChance": "3%",
+    "actions": [
+      "14,4d6,cold",
+      "9,1d10,necrotic"
+    ]
+  },
+  {
+    "name": "Fire Giant",
+    "hp": "162",
+    "ac": "18",
+    "xp": "5,000",
+    "gold": "1326",
+    "fleeChance": "18%",
+    "actions": [
+      "21,8d10,slashing",
+      "16,9d6,radiant",
+      "11,1d6,necrotic"
+    ]
+  },
+  {
+    "name": "Flameskull",
+    "hp": "40",
+    "ac": "13",
+    "xp": "1,100",
+    "gold": "68",
+    "fleeChance": "23%",
+    "actions": [
+      "13,6d12,radiant",
+      "8,1d8,bludgeoning",
+      "3,6d12,cold"
+    ]
+  },
+  {
+    "name": "Flesh Golem",
+    "hp": "93",
+    "ac": "9",
+    "xp": "1,800",
+    "gold": "413",
+    "fleeChance": "24%",
+    "actions": [
+      "9,1d20,fire",
+      "4,4d6,necrotic"
+    ]
+  },
+  {
+    "name": "Flying Snake",
+    "hp": "5",
+    "ac": "14",
+    "xp": "25",
+    "gold": "52",
+    "fleeChance": "9%",
+    "actions": [
+      "14,1d6,force"
+    ]
+  },
+  {
+    "name": "Flying Sword",
+    "hp": "17",
+    "ac": "17",
+    "xp": "50",
+    "gold": "64",
+    "fleeChance": "6%",
+    "actions": [
+      "19,4d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Frog",
+    "hp": "1",
+    "ac": "11",
+    "xp": "10",
+    "gold": "6",
+    "fleeChance": "17%",
+    "actions": [
+      "12,1d8,slashing"
+    ]
+  },
+  {
+    "name": "Frost Giant",
+    "hp": "138",
+    "ac": "15",
+    "xp": "3,900",
+    "gold": "377",
+    "fleeChance": "16%",
+    "actions": [
+      "16,2d6,piercing",
+      "11,5d12,acid",
+      "6,1d12,necrotic",
+      "1,4d8,piercing"
+    ]
+  },
+  {
+    "name": "Gargoyle",
+    "hp": "52",
+    "ac": "15",
+    "xp": "450",
+    "gold": "240",
+    "fleeChance": "1%",
+    "actions": [
+      "17,5d12,slashing",
+      "12,2d12,cold",
+      "7,4d4,acid"
+    ]
+  },
+  {
+    "name": "Gelatinous Cube",
+    "hp": "84",
+    "ac": "6",
+    "xp": "450",
+    "gold": "132",
+    "fleeChance": "17%",
+    "actions": [
+      "7,3d4,slashing"
+    ]
+  },
+  {
+    "name": "Ghast",
+    "hp": "36",
+    "ac": "13",
+    "xp": "450",
+    "gold": "228",
+    "fleeChance": "3%",
+    "actions": [
+      "13,4d12,thunder"
+    ]
+  },
+  {
+    "name": "Ghost",
+    "hp": "45",
+    "ac": "11",
+    "xp": "1,100",
+    "gold": "252",
+    "fleeChance": "21%",
+    "actions": [
+      "12,4d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Ghoul",
+    "hp": "22",
+    "ac": "12",
+    "xp": "200",
+    "gold": "60",
+    "fleeChance": "3%",
+    "actions": [
+      "12,3d4,fire"
+    ]
+  },
+  {
+    "name": "Giant Ape",
+    "hp": "157",
+    "ac": "12",
+    "xp": "2,900",
+    "gold": "157",
+    "fleeChance": "25%",
+    "actions": [
+      "14,3d6,slashing",
+      "9,3d8,bludgeoning",
+      "4,6d4,bludgeoning",
+      "-1,6d8,force"
+    ]
+  },
+  {
+    "name": "Giant Badger",
+    "hp": "13",
+    "ac": "10",
+    "xp": "50",
+    "gold": "93",
+    "fleeChance": "9%",
+    "actions": [
+      "10,4d12,lightning",
+      "5,1d20,thunder"
+    ]
+  },
+  {
+    "name": "Giant Bat",
+    "hp": "22",
+    "ac": "13",
+    "xp": "50",
+    "gold": "240",
+    "fleeChance": "21%",
+    "actions": [
+      "16,6d8,lightning"
+    ]
+  },
+  {
+    "name": "Giant Boar",
+    "hp": "42",
+    "ac": "12",
+    "xp": "450",
+    "gold": "167",
+    "fleeChance": "18%",
+    "actions": [
+      "15,4d12,slashing"
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "hp": "4",
+    "ac": "13",
+    "xp": "50",
+    "gold": "27",
+    "fleeChance": "19%",
+    "actions": [
+      "15,4d12,fire"
+    ]
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "hp": "60",
+    "ac": "12",
+    "xp": "450",
+    "gold": "174",
+    "fleeChance": "10%",
+    "actions": [
+      "15,4d8,slashing"
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "hp": "13",
+    "ac": "15",
+    "xp": "25",
+    "gold": "70",
+    "fleeChance": "9%",
+    "actions": [
+      "17,4d12,cold"
+    ]
+  },
+  {
+    "name": "Giant Crocodile",
+    "hp": "85",
+    "ac": "14",
+    "xp": "1,800",
+    "gold": "772",
+    "fleeChance": "17%",
+    "actions": [
+      "15,6d10,necrotic",
+      "10,6d4,bludgeoning",
+      "5,7d12,necrotic",
+      "0,3d10,fire"
+    ]
+  },
+  {
+    "name": "Giant Eagle",
+    "hp": "26",
+    "ac": "13",
+    "xp": "200",
+    "gold": "102",
+    "fleeChance": "10%",
+    "actions": [
+      "15,3d12,poison",
+      "10,6d6,necrotic"
+    ]
+  },
+  {
+    "name": "Giant Elk",
+    "hp": "42",
+    "ac": "14",
+    "xp": "450",
+    "gold": "132",
+    "fleeChance": "18%",
+    "actions": [
+      "16,1d10,poison"
+    ]
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "hp": "4",
+    "ac": "13",
+    "xp": "10",
+    "gold": "5",
+    "fleeChance": "5%",
+    "actions": [
+      "16,4d4,piercing"
+    ]
+  },
+  {
+    "name": "Giant Frog",
+    "hp": "18",
+    "ac": "11",
+    "xp": "50",
+    "gold": "31",
+    "fleeChance": "16%",
+    "actions": [
+      "13,1d8,bludgeoning"
+    ]
+  },
+  {
+    "name": "Giant Goat",
+    "hp": "19",
+    "ac": "11",
+    "xp": "100",
+    "gold": "98",
+    "fleeChance": "6%",
+    "actions": [
+      "14,5d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Giant Hyena",
+    "hp": "45",
+    "ac": "12",
+    "xp": "200",
+    "gold": "427",
+    "fleeChance": "15%",
+    "actions": [
+      "13,3d20,fire"
+    ]
+  },
+  {
+    "name": "Giant Lizard",
+    "hp": "19",
+    "ac": "12",
+    "xp": "50",
+    "gold": "107",
+    "fleeChance": "5%",
+    "actions": [
+      "13,5d12,poison"
+    ]
+  },
+  {
+    "name": "Giant Octopus",
+    "hp": "52",
+    "ac": "11",
+    "xp": "200",
+    "gold": "169",
+    "fleeChance": "19%",
+    "actions": [
+      "12,2d12,psychic"
+    ]
+  },
+  {
+    "name": "Giant Owl",
+    "hp": "19",
+    "ac": "12",
+    "xp": "50",
+    "gold": "80",
+    "fleeChance": "2%",
+    "actions": [
+      "12,6d6,necrotic"
+    ]
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "hp": "11",
+    "ac": "14",
+    "xp": "50",
+    "gold": "41",
+    "fleeChance": "17%",
+    "actions": [
+      "14,7d20,poison"
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "hp": "7",
+    "ac": "12",
+    "xp": "25",
+    "gold": "40",
+    "fleeChance": "25%",
+    "actions": [
+      "12,4d6,thunder"
+    ]
+  },
+  {
+    "name": "Giant Scorpion",
+    "hp": "52",
+    "ac": "15",
+    "xp": "700",
+    "gold": "469",
+    "fleeChance": "2%",
+    "actions": [
+      "15,6d20,cold",
+      "10,1d10,piercing",
+      "5,5d8,thunder",
+      "0,3d8,piercing"
+    ]
+  },
+  {
+    "name": "Giant Sea Horse",
+    "hp": "16",
+    "ac": "13",
+    "xp": "100",
+    "gold": "102",
+    "fleeChance": "21%",
+    "actions": [
+      "13,2d4,cold"
+    ]
+  },
+  {
+    "name": "Giant Shark",
+    "hp": "126",
+    "ac": "13",
+    "xp": "1,800",
+    "gold": "1382",
+    "fleeChance": "16%",
+    "actions": [
+      "15,2d8,lightning"
+    ]
+  },
+  {
+    "name": "Giant Spider",
+    "hp": "26",
+    "ac": "14",
+    "xp": "200",
+    "gold": "155",
+    "fleeChance": "16%",
+    "actions": [
+      "15,1d8,acid"
+    ]
+  },
+  {
+    "name": "Giant Toad",
+    "hp": "39",
+    "ac": "11",
+    "xp": "200",
+    "gold": "336",
+    "fleeChance": "17%",
+    "actions": [
+      "13,2d4,thunder"
+    ]
+  },
+  {
+    "name": "Giant Vulture",
+    "hp": "22",
+    "ac": "10",
+    "xp": "200",
+    "gold": "228",
+    "fleeChance": "9%",
+    "actions": [
+      "10,1d10,lightning",
+      "5,5d20,fire",
+      "0,1d10,slashing",
+      "-5,1d10,necrotic",
+      "-10,2d20,psychic"
+    ]
+  },
+  {
+    "name": "Giant Wasp",
+    "hp": "13",
+    "ac": "12",
+    "xp": "100",
+    "gold": "54",
+    "fleeChance": "19%",
+    "actions": [
+      "15,6d20,psychic"
+    ]
+  },
+  {
+    "name": "Giant Weasel",
+    "hp": "9",
+    "ac": "13",
+    "xp": "25",
+    "gold": "14",
+    "fleeChance": "1%",
+    "actions": [
+      "15,3d4,force"
+    ]
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "hp": "11",
+    "ac": "13",
+    "xp": "50",
+    "gold": "93",
+    "fleeChance": "24%",
+    "actions": [
+      "14,3d12,psychic"
+    ]
+  },
+  {
+    "name": "Gibbering Mouther",
+    "hp": "67",
+    "ac": "9",
+    "xp": "450",
+    "gold": "294",
+    "fleeChance": "21%",
+    "actions": [
+      "9,1d8,radiant",
+      "4,2d6,cold"
+    ]
+  },
+  {
+    "name": "Glabrezu",
+    "hp": "157",
+    "ac": "17",
+    "xp": "5,000",
+    "gold": "476",
+    "fleeChance": "18%",
+    "actions": [
+      "18,5d10,force",
+      "13,4d8,psychic",
+      "8,7d10,lightning",
+      "3,5d6,piercing",
+      "-2,4d12,thunder"
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "hp": "112",
+    "ac": "16",
+    "xp": "1,800",
+    "gold": "527",
+    "fleeChance": "15%",
+    "actions": [
+      "19,2d12,force",
+      "14,3d8,slashing",
+      "9,5d20,thunder",
+      "4,5d8,thunder"
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "hp": "22",
+    "ac": "15",
+    "xp": "100",
+    "gold": "150",
+    "fleeChance": "7%",
+    "actions": [
+      "15,3d8,poison"
+    ]
+  },
+  {
+    "name": "Goat",
+    "hp": "4",
+    "ac": "10",
+    "xp": "10",
+    "gold": "17",
+    "fleeChance": "13%",
+    "actions": [
+      "11,4d20,thunder"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "hp": "7",
+    "ac": "15",
+    "xp": "50",
+    "gold": "14",
+    "fleeChance": "6%",
+    "actions": [
+      "17,2d6,bludgeoning"
+    ]
+  },
+  {
+    "name": "Gold Dragon Wyrmling",
+    "hp": "60",
+    "ac": "17",
+    "xp": "700",
+    "gold": "73",
+    "fleeChance": "6%",
+    "actions": [
+      "18,7d20,acid"
+    ]
+  },
+  {
+    "name": "Gorgon",
+    "hp": "114",
+    "ac": "19",
+    "xp": "1,800",
+    "gold": "482",
+    "fleeChance": "18%",
+    "actions": [
+      "21,1d6,psychic"
+    ]
+  },
+  {
+    "name": "Gray Ooze",
+    "hp": "22",
+    "ac": "8",
+    "xp": "100",
+    "gold": "94",
+    "fleeChance": "17%",
+    "actions": [
+      "8,3d10,psychic"
+    ]
+  },
+  {
+    "name": "Green Dragon Wyrmling",
+    "hp": "38",
+    "ac": "17",
+    "xp": "450",
+    "gold": "395",
+    "fleeChance": "12%",
+    "actions": [
+      "18,4d4,slashing"
+    ]
+  },
+  {
+    "name": "Green Hag",
+    "hp": "82",
+    "ac": "17",
+    "xp": "700",
+    "gold": "581",
+    "fleeChance": "15%",
+    "actions": [
+      "18,5d8,fire"
+    ]
+  },
+  {
+    "name": "Grick",
+    "hp": "27",
+    "ac": "14",
+    "xp": "450",
+    "gold": "166",
+    "fleeChance": "4%",
+    "actions": [
+      "17,2d6,fire",
+      "12,2d8,piercing",
+      "7,1d4,necrotic"
+    ]
+  },
+  {
+    "name": "Griffon",
+    "hp": "59",
+    "ac": "12",
+    "xp": "450",
+    "gold": "598",
+    "fleeChance": "2%",
+    "actions": [
+      "12,5d4,lightning",
+      "7,5d8,thunder",
+      "2,1d10,radiant",
+      "-3,6d4,cold",
+      "-8,2d12,thunder"
+    ]
+  },
+  {
+    "name": "Grimlock",
+    "hp": "11",
+    "ac": "11",
+    "xp": "50",
+    "gold": "77",
+    "fleeChance": "16%",
+    "actions": [
+      "13,5d20,thunder"
+    ]
+  },
+  {
+    "name": "Guard",
+    "hp": "11",
+    "ac": "16",
+    "xp": "25",
+    "gold": "109",
+    "fleeChance": "18%",
+    "actions": [
+      "18,6d4,radiant"
+    ]
+  },
+  {
+    "name": "Guardian Naga",
+    "hp": "127",
+    "ac": "18",
+    "xp": "5,900",
+    "gold": "304",
+    "fleeChance": "10%",
+    "actions": [
+      "19,1d12,poison"
+    ]
+  },
+  {
+    "name": "Gynosphinx",
+    "hp": "136",
+    "ac": "17",
+    "xp": "7,200",
+    "gold": "1338",
+    "fleeChance": "20%",
+    "actions": [
+      "20,5d8,acid",
+      "15,3d12,bludgeoning",
+      "10,2d6,necrotic",
+      "5,7d4,radiant",
+      "0,3d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Half-Red Dragon Veteran",
+    "hp": "65",
+    "ac": "18",
+    "xp": "1,800",
+    "gold": "628",
+    "fleeChance": "18%",
+    "actions": [
+      "21,2d12,piercing",
+      "16,9d12,lightning",
+      "11,3d6,radiant",
+      "6,2d4,psychic"
+    ]
+  },
+  {
+    "name": "Harpy",
+    "hp": "38",
+    "ac": "11",
+    "xp": "200",
+    "gold": "76",
+    "fleeChance": "15%",
+    "actions": [
+      "12,2d6,fire",
+      "7,2d4,fire",
+      "2,1d20,lightning",
+      "-3,3d4,slashing",
+      "-8,5d10,psychic"
+    ]
+  },
+  {
+    "name": "Hawk",
+    "hp": "1",
+    "ac": "13",
+    "xp": "10",
+    "gold": "1",
+    "fleeChance": "17%",
+    "actions": [
+      "13,4d4,piercing"
+    ]
+  },
+  {
+    "name": "Hell Hound",
+    "hp": "45",
+    "ac": "15",
+    "xp": "700",
+    "gold": "173",
+    "fleeChance": "5%",
+    "actions": [
+      "17,3d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Hezrou",
+    "hp": "136",
+    "ac": "16",
+    "xp": "3,900",
+    "gold": "1260",
+    "fleeChance": "9%",
+    "actions": [
+      "18,7d4,necrotic",
+      "13,3d4,necrotic",
+      "8,5d8,psychic"
+    ]
+  },
+  {
+    "name": "Hill Giant",
+    "hp": "105",
+    "ac": "13",
+    "xp": "1,800",
+    "gold": "400",
+    "fleeChance": "7%",
+    "actions": [
+      "15,2d20,slashing",
+      "10,5d12,force",
+      "5,1d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "hp": "19",
+    "ac": "11",
+    "xp": "200",
+    "gold": "55",
+    "fleeChance": "21%",
+    "actions": [
+      "14,5d10,thunder",
+      "9,4d8,piercing",
+      "4,5d6,cold",
+      "-1,2d20,necrotic"
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "hp": "11",
+    "ac": "18",
+    "xp": "100",
+    "gold": "101",
+    "fleeChance": "8%",
+    "actions": [
+      "18,4d12,lightning"
+    ]
+  },
+  {
+    "name": "Homunculus",
+    "hp": "5",
+    "ac": "13",
+    "xp": "10",
+    "gold": "23",
+    "fleeChance": "19%",
+    "actions": [
+      "13,1d6,slashing"
+    ]
+  },
+  {
+    "name": "Horned Devil",
+    "hp": "148",
+    "ac": "18",
+    "xp": "7,200",
+    "gold": "1266",
+    "fleeChance": "2%",
+    "actions": [
+      "19,9d10,slashing",
+      "14,4d20,poison"
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "hp": "45",
+    "ac": "12",
+    "xp": "450",
+    "gold": "433",
+    "fleeChance": "23%",
+    "actions": [
+      "15,1d4,radiant"
+    ]
+  },
+  {
+    "name": "Hydra",
+    "hp": "172",
+    "ac": "15",
+    "xp": "3,900",
+    "gold": "720",
+    "fleeChance": "18%",
+    "actions": [
+      "17,3d4,radiant",
+      "12,1d12,cold",
+      "7,3d6,slashing",
+      "2,6d8,acid"
+    ]
+  },
+  {
+    "name": "Hyena",
+    "hp": "5",
+    "ac": "11",
+    "xp": "10",
+    "gold": "36",
+    "fleeChance": "18%",
+    "actions": [
+      "14,5d6,fire"
+    ]
+  },
+  {
+    "name": "Ice Devil",
+    "hp": "180",
+    "ac": "18",
+    "xp": "11,500",
+    "gold": "1922",
+    "fleeChance": "23%",
+    "actions": [
+      "18,1d4,thunder",
+      "13,1d8,poison",
+      "8,1d20,cold",
+      "3,7d10,thunder",
+      "-2,2d4,necrotic"
+    ]
+  },
+  {
+    "name": "Ice Mephit",
+    "hp": "21",
+    "ac": "11",
+    "xp": "100",
+    "gold": "92",
+    "fleeChance": "18%",
+    "actions": [
+      "14,2d10,cold"
+    ]
+  },
+  {
+    "name": "Imp",
+    "hp": "10",
+    "ac": "13",
+    "xp": "200",
+    "gold": "31",
+    "fleeChance": "12%",
+    "actions": [
+      "13,1d4,lightning"
+    ]
+  },
+  {
+    "name": "Invisible Stalker",
+    "hp": "104",
+    "ac": "14",
+    "xp": "2,300",
+    "gold": "331",
+    "fleeChance": "17%",
+    "actions": [
+      "15,7d4,piercing",
+      "10,2d12,psychic",
+      "5,5d8,cold",
+      "0,2d10,cold"
+    ]
+  },
+  {
+    "name": "Iron Golem",
+    "hp": "210",
+    "ac": "20",
+    "xp": "15,000",
+    "gold": "1466",
+    "fleeChance": "6%",
+    "actions": [
+      "23,3d6,bludgeoning",
+      "18,10d20,bludgeoning"
+    ]
+  },
+  {
+    "name": "Jackal",
+    "hp": "3",
+    "ac": "12",
+    "xp": "10",
+    "gold": "16",
+    "fleeChance": "19%",
+    "actions": [
+      "15,1d4,bludgeoning"
+    ]
+  },
+  {
+    "name": "Killer Whale",
+    "hp": "90",
+    "ac": "12",
+    "xp": "700",
+    "gold": "983",
+    "fleeChance": "14%",
+    "actions": [
+      "15,4d8,lightning"
+    ]
+  },
+  {
+    "name": "Knight",
+    "hp": "52",
+    "ac": "18",
+    "xp": "700",
+    "gold": "462",
+    "fleeChance": "2%",
+    "actions": [
+      "21,9d4,necrotic",
+      "16,6d12,lightning",
+      "11,9d10,thunder",
+      "6,2d10,force"
+    ]
+  },
+  {
+    "name": "Kobold",
+    "hp": "5",
+    "ac": "12",
+    "xp": "25",
+    "gold": "33",
+    "fleeChance": "21%",
+    "actions": [
+      "15,4d8,force"
+    ]
+  },
+  {
+    "name": "Kraken",
+    "hp": "472",
+    "ac": "18",
+    "xp": "50,000",
+    "gold": "3960",
+    "fleeChance": "3%",
+    "actions": [
+      "19,4d4,bludgeoning",
+      "14,6d12,necrotic"
+    ]
+  },
+  {
+    "name": "Lamia",
+    "hp": "97",
+    "ac": "13",
+    "xp": "1,100",
+    "gold": "182",
+    "fleeChance": "20%",
+    "actions": [
+      "16,1d4,thunder",
+      "11,3d10,cold",
+      "6,3d6,thunder",
+      "1,2d6,force"
+    ]
+  },
+  {
+    "name": "Lemure",
+    "hp": "13",
+    "ac": "7",
+    "xp": "10",
+    "gold": "109",
+    "fleeChance": "12%",
+    "actions": [
+      "9,1d10,fire"
+    ]
+  },
+  {
+    "name": "Lich",
+    "hp": "135",
+    "ac": "17",
+    "xp": "33,000",
+    "gold": "1312",
+    "fleeChance": "18%",
+    "actions": [
+      "18,8d6,thunder"
+    ]
+  },
+  {
+    "name": "Lion",
+    "hp": "26",
+    "ac": "12",
+    "xp": "200",
+    "gold": "132",
+    "fleeChance": "6%",
+    "actions": [
+      "15,6d4,force"
+    ]
+  },
+  {
+    "name": "Lizard",
+    "hp": "2",
+    "ac": "10",
+    "xp": "10",
+    "gold": "20",
+    "fleeChance": "11%",
+    "actions": [
+      "13,4d8,bludgeoning"
+    ]
+  },
+  {
+    "name": "Lizardfolk",
+    "hp": "22",
+    "ac": "15",
+    "xp": "100",
+    "gold": "168",
+    "fleeChance": "14%",
+    "actions": [
+      "16,5d10,bludgeoning",
+      "11,5d12,thunder",
+      "6,5d4,bludgeoning",
+      "1,2d20,radiant",
+      "-4,4d20,poison"
+    ]
+  },
+  {
+    "name": "Mage",
+    "hp": "40",
+    "ac": "12",
+    "xp": "2,300",
+    "gold": "342",
+    "fleeChance": "11%",
+    "actions": [
+      "13,1d4,slashing"
+    ]
+  },
+  {
+    "name": "Magma Mephit",
+    "hp": "22",
+    "ac": "11",
+    "xp": "100",
+    "gold": "155",
+    "fleeChance": "14%",
+    "actions": [
+      "14,5d10,fire"
+    ]
+  },
+  {
+    "name": "Magmin",
+    "hp": "9",
+    "ac": "14",
+    "xp": "100",
+    "gold": "93",
+    "fleeChance": "16%",
+    "actions": [
+      "14,5d8,radiant"
+    ]
+  },
+  {
+    "name": "Mammoth",
+    "hp": "126",
+    "ac": "13",
+    "xp": "2,300",
+    "gold": "499",
+    "fleeChance": "10%",
+    "actions": [
+      "14,6d8,acid"
+    ]
+  },
+  {
+    "name": "Manticore",
+    "hp": "68",
+    "ac": "14",
+    "xp": "700",
+    "gold": "636",
+    "fleeChance": "10%",
+    "actions": [
+      "15,2d8,thunder",
+      "10,5d20,force",
+      "5,1d10,psychic"
+    ]
+  },
+  {
+    "name": "Marilith",
+    "hp": "189",
+    "ac": "18",
+    "xp": "15,000",
+    "gold": "2003",
+    "fleeChance": "7%",
+    "actions": [
+      "20,5d6,force",
+      "15,9d20,piercing"
+    ]
+  },
+  {
+    "name": "Mastiff",
+    "hp": "5",
+    "ac": "12",
+    "xp": "25",
+    "gold": "28",
+    "fleeChance": "7%",
+    "actions": [
+      "12,4d8,radiant"
+    ]
+  },
+  {
+    "name": "Medusa",
+    "hp": "127",
+    "ac": "15",
+    "xp": "2,300",
+    "gold": "806",
+    "fleeChance": "21%",
+    "actions": [
+      "16,3d12,psychic",
+      "11,1d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Merfolk",
+    "hp": "11",
+    "ac": "11",
+    "xp": "25",
+    "gold": "89",
+    "fleeChance": "1%",
+    "actions": [
+      "11,5d10,lightning"
+    ]
+  },
+  {
+    "name": "Merrow",
+    "hp": "45",
+    "ac": "13",
+    "xp": "450",
+    "gold": "328",
+    "fleeChance": "9%",
+    "actions": [
+      "13,3d6,thunder",
+      "8,3d4,poison",
+      "3,2d4,slashing",
+      "-2,3d8,force",
+      "-7,3d10,poison"
+    ]
+  },
+  {
+    "name": "Mimic",
+    "hp": "58",
+    "ac": "12",
+    "xp": "450",
+    "gold": "320",
+    "fleeChance": "9%",
+    "actions": [
+      "15,1d8,cold"
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "hp": "76",
+    "ac": "14",
+    "xp": "700",
+    "gold": "254",
+    "fleeChance": "14%",
+    "actions": [
+      "17,1d4,poison"
+    ]
+  },
+  {
+    "name": "Minotaur Skeleton",
+    "hp": "67",
+    "ac": "12",
+    "xp": "450",
+    "gold": "501",
+    "fleeChance": "19%",
+    "actions": [
+      "13,4d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Mule",
+    "hp": "11",
+    "ac": "10",
+    "xp": "25",
+    "gold": "53",
+    "fleeChance": "11%",
+    "actions": [
+      "12,5d4,fire"
+    ]
+  },
+  {
+    "name": "Mummy",
+    "hp": "58",
+    "ac": "11",
+    "xp": "700",
+    "gold": "163",
+    "fleeChance": "21%",
+    "actions": [
+      "14,2d10,psychic",
+      "9,1d12,slashing",
+      "4,3d6,cold",
+      "-1,5d8,cold",
+      "-6,2d4,psychic"
+    ]
+  },
+  {
+    "name": "Mummy Lord",
+    "hp": "97",
+    "ac": "17",
+    "xp": "13,000",
+    "gold": "676",
+    "fleeChance": "16%",
+    "actions": [
+      "18,2d12,force",
+      "13,5d10,poison"
+    ]
+  },
+  {
+    "name": "Nalfeshnee",
+    "hp": "184",
+    "ac": "18",
+    "xp": "10,000",
+    "gold": "1492",
+    "fleeChance": "15%",
+    "actions": [
+      "18,1d20,fire",
+      "13,6d8,necrotic",
+      "8,3d10,piercing",
+      "3,6d8,radiant"
+    ]
+  },
+  {
+    "name": "Night Hag",
+    "hp": "112",
+    "ac": "17",
+    "xp": "1,800",
+    "gold": "912",
+    "fleeChance": "12%",
+    "actions": [
+      "20,8d10,poison"
+    ]
+  },
+  {
+    "name": "Nightmare",
+    "hp": "68",
+    "ac": "13",
+    "xp": "700",
+    "gold": "84",
+    "fleeChance": "8%",
+    "actions": [
+      "15,5d10,thunder"
+    ]
+  },
+  {
+    "name": "Noble",
+    "hp": "9",
+    "ac": "15",
+    "xp": "25",
+    "gold": "72",
+    "fleeChance": "12%",
+    "actions": [
+      "15,6d10,lightning"
+    ]
+  },
+  {
+    "name": "Nothic",
+    "hp": "45",
+    "ac": "15",
+    "xp": "450",
+    "gold": "388",
+    "fleeChance": "21%",
+    "actions": [
+      "16,5d4,bludgeoning",
+      "11,2d20,necrotic"
+    ]
+  },
+  {
+    "name": "Ochre Jelly",
+    "hp": "45",
+    "ac": "8",
+    "xp": "450",
+    "gold": "376",
+    "fleeChance": "1%",
+    "actions": [
+      "10,2d4,necrotic"
+    ]
+  },
+  {
+    "name": "Octopus",
+    "hp": "3",
+    "ac": "12",
+    "xp": "10",
+    "gold": "21",
+    "fleeChance": "14%",
+    "actions": [
+      "13,4d6,force"
+    ]
+  },
+  {
+    "name": "Ogre",
+    "hp": "59",
+    "ac": "11",
+    "xp": "450",
+    "gold": "221",
+    "fleeChance": "24%",
+    "actions": [
+      "14,5d20,psychic"
+    ]
+  },
+  {
+    "name": "Ogre Zombie",
+    "hp": "85",
+    "ac": "8",
+    "xp": "450",
+    "gold": "143",
+    "fleeChance": "14%",
+    "actions": [
+      "11,4d6,slashing"
+    ]
+  },
+  {
+    "name": "Oni",
+    "hp": "110",
+    "ac": "16",
+    "xp": "2,900",
+    "gold": "272",
+    "fleeChance": "1%",
+    "actions": [
+      "19,1d4,cold",
+      "14,8d6,lightning"
+    ]
+  },
+  {
+    "name": "Orc",
+    "hp": "15",
+    "ac": "13",
+    "xp": "100",
+    "gold": "139",
+    "fleeChance": "16%",
+    "actions": [
+      "14,2d6,acid"
+    ]
+  },
+  {
+    "name": "Otyugh",
+    "hp": "114",
+    "ac": "14",
+    "xp": "1,800",
+    "gold": "1016",
+    "fleeChance": "24%",
+    "actions": [
+      "16,4d20,cold",
+      "11,7d12,necrotic",
+      "6,1d20,radiant",
+      "1,4d6,radiant"
+    ]
+  },
+  {
+    "name": "Owl",
+    "hp": "1",
+    "ac": "11",
+    "xp": "10",
+    "gold": "4",
+    "fleeChance": "10%",
+    "actions": [
+      "14,3d10,acid"
+    ]
+  },
+  {
+    "name": "Owlbear",
+    "hp": "59",
+    "ac": "13",
+    "xp": "700",
+    "gold": "479",
+    "fleeChance": "23%",
+    "actions": [
+      "15,2d6,acid",
+      "10,4d6,piercing",
+      "5,6d4,bludgeoning"
+    ]
+  },
+  {
+    "name": "Panther",
+    "hp": "13",
+    "ac": "12",
+    "xp": "50",
+    "gold": "15",
+    "fleeChance": "5%",
+    "actions": [
+      "13,2d20,poison"
+    ]
+  },
+  {
+    "name": "Pegasus",
+    "hp": "59",
+    "ac": "12",
+    "xp": "450",
+    "gold": "100",
+    "fleeChance": "11%",
+    "actions": [
+      "15,6d6,poison"
+    ]
+  },
+  {
+    "name": "Phase Spider",
+    "hp": "32",
+    "ac": "13",
+    "xp": "700",
+    "gold": "91",
+    "fleeChance": "10%",
+    "actions": [
+      "13,1d8,acid"
+    ]
+  },
+  {
+    "name": "Pit Fiend",
+    "hp": "300",
+    "ac": "19",
+    "xp": "25,000",
+    "gold": "1102",
+    "fleeChance": "9%",
+    "actions": [
+      "21,3d12,force",
+      "16,2d4,force"
+    ]
+  },
+  {
+    "name": "Planetar",
+    "hp": "200",
+    "ac": "19",
+    "xp": "15,000",
+    "gold": "353",
+    "fleeChance": "20%",
+    "actions": [
+      "19,4d10,cold",
+      "14,9d8,radiant",
+      "9,3d10,piercing",
+      "4,3d8,necrotic",
+      "-1,3d6,force"
+    ]
+  },
+  {
+    "name": "Plesiosaurus",
+    "hp": "68",
+    "ac": "13",
+    "xp": "450",
+    "gold": "657",
+    "fleeChance": "25%",
+    "actions": [
+      "15,6d6,thunder"
+    ]
+  },
+  {
+    "name": "Poisonous Snake",
+    "hp": "2",
+    "ac": "13",
+    "xp": "25",
+    "gold": "4",
+    "fleeChance": "25%",
+    "actions": [
+      "15,2d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "hp": "42",
+    "ac": "12",
+    "xp": "450",
+    "gold": "368",
+    "fleeChance": "7%",
+    "actions": [
+      "15,6d12,necrotic",
+      "10,3d6,thunder",
+      "5,6d4,poison",
+      "0,1d20,piercing"
+    ]
+  },
+  {
+    "name": "Pony",
+    "hp": "11",
+    "ac": "10",
+    "xp": "25",
+    "gold": "22",
+    "fleeChance": "3%",
+    "actions": [
+      "12,1d12,psychic"
+    ]
+  },
+  {
+    "name": "Priest",
+    "hp": "27",
+    "ac": "13",
+    "xp": "450",
+    "gold": "215",
+    "fleeChance": "20%",
+    "actions": [
+      "15,6d8,lightning"
+    ]
+  },
+  {
+    "name": "Pseudodragon",
+    "hp": "7",
+    "ac": "13",
+    "xp": "50",
+    "gold": "65",
+    "fleeChance": "16%",
+    "actions": [
+      "16,2d20,piercing"
+    ]
+  },
+  {
+    "name": "Pteranodon",
+    "hp": "13",
+    "ac": "13",
+    "xp": "50",
+    "gold": "36",
+    "fleeChance": "8%",
+    "actions": [
+      "15,4d8,radiant"
+    ]
+  },
+  {
+    "name": "Purple Worm",
+    "hp": "247",
+    "ac": "18",
+    "xp": "13,000",
+    "gold": "1085",
+    "fleeChance": "18%",
+    "actions": [
+      "20,8d6,piercing",
+      "15,6d10,psychic",
+      "10,3d4,force",
+      "5,1d12,thunder"
+    ]
+  },
+  {
+    "name": "Quasit",
+    "hp": "7",
+    "ac": "13",
+    "xp": "200",
+    "gold": "53",
+    "fleeChance": "18%",
+    "actions": [
+      "14,4d10,radiant"
+    ]
+  },
+  {
+    "name": "Quipper",
+    "hp": "1",
+    "ac": "13",
+    "xp": "10",
+    "gold": "8",
+    "fleeChance": "23%",
+    "actions": [
+      "16,5d8,lightning"
+    ]
+  },
+  {
+    "name": "Rakshasa",
+    "hp": "110",
+    "ac": "16",
+    "xp": "10,000",
+    "gold": "763",
+    "fleeChance": "1%",
+    "actions": [
+      "17,5d20,bludgeoning",
+      "12,5d6,slashing"
+    ]
+  },
+  {
+    "name": "Rat",
+    "hp": "1",
+    "ac": "10",
+    "xp": "10",
+    "gold": "8",
+    "fleeChance": "5%",
+    "actions": [
+      "13,2d4,poison"
+    ]
+  },
+  {
+    "name": "Raven",
+    "hp": "1",
+    "ac": "12",
+    "xp": "10",
+    "gold": "4",
+    "fleeChance": "20%",
+    "actions": [
+      "15,5d20,psychic"
+    ]
+  },
+  {
+    "name": "Red Dragon Wyrmling",
+    "hp": "75",
+    "ac": "17",
+    "xp": "1,100",
+    "gold": "280",
+    "fleeChance": "5%",
+    "actions": [
+      "17,6d12,lightning"
+    ]
+  },
+  {
+    "name": "Reef Shark",
+    "hp": "22",
+    "ac": "12",
+    "xp": "100",
+    "gold": "57",
+    "fleeChance": "17%",
+    "actions": [
+      "12,2d12,necrotic"
+    ]
+  },
+  {
+    "name": "Remorhaz",
+    "hp": "195",
+    "ac": "17",
+    "xp": "7,200",
+    "gold": "576",
+    "fleeChance": "17%",
+    "actions": [
+      "17,6d20,lightning"
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "hp": "45",
+    "ac": "11",
+    "xp": "450",
+    "gold": "176",
+    "fleeChance": "15%",
+    "actions": [
+      "14,3d4,lightning"
+    ]
+  },
+  {
+    "name": "Riding Horse",
+    "hp": "13",
+    "ac": "10",
+    "xp": "50",
+    "gold": "74",
+    "fleeChance": "7%",
+    "actions": [
+      "11,2d12,cold"
+    ]
+  },
+  {
+    "name": "Roc",
+    "hp": "248",
+    "ac": "15",
+    "xp": "7,200",
+    "gold": "319",
+    "fleeChance": "11%",
+    "actions": [
+      "17,4d8,necrotic",
+      "12,5d12,piercing",
+      "7,4d8,cold"
+    ]
+  },
+  {
+    "name": "Roper",
+    "hp": "93",
+    "ac": "20",
+    "xp": "1,800",
+    "gold": "922",
+    "fleeChance": "12%",
+    "actions": [
+      "21,9d8,poison",
+      "16,7d10,lightning",
+      "11,10d10,radiant",
+      "6,5d4,thunder",
+      "1,3d10,necrotic"
+    ]
+  },
+  {
+    "name": "Rug of Smothering",
+    "hp": "33",
+    "ac": "12",
+    "xp": "450",
+    "gold": "197",
+    "fleeChance": "7%",
+    "actions": [
+      "15,1d4,radiant"
+    ]
+  },
+  {
+    "name": "Rust Monster",
+    "hp": "27",
+    "ac": "14",
+    "xp": "100",
+    "gold": "247",
+    "fleeChance": "25%",
+    "actions": [
+      "14,1d8,piercing"
+    ]
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "hp": "52",
+    "ac": "12",
+    "xp": "450",
+    "gold": "247",
+    "fleeChance": "11%",
+    "actions": [
+      "12,4d20,lightning"
+    ]
+  },
+  {
+    "name": "Sahuagin",
+    "hp": "22",
+    "ac": "12",
+    "xp": "100",
+    "gold": "95",
+    "fleeChance": "5%",
+    "actions": [
+      "15,3d20,fire",
+      "10,2d10,slashing",
+      "5,6d20,piercing"
+    ]
+  },
+  {
+    "name": "Salamander",
+    "hp": "90",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "896",
+    "fleeChance": "22%",
+    "actions": [
+      "16,4d4,force",
+      "11,7d8,piercing"
+    ]
+  },
+  {
+    "name": "Satyr",
+    "hp": "31",
+    "ac": "14",
+    "xp": "100",
+    "gold": "45",
+    "fleeChance": "2%",
+    "actions": [
+      "15,3d4,force"
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "hp": "1",
+    "ac": "11",
+    "xp": "10",
+    "gold": "5",
+    "fleeChance": "14%",
+    "actions": [
+      "14,2d12,acid"
+    ]
+  },
+  {
+    "name": "Scout",
+    "hp": "16",
+    "ac": "13",
+    "xp": "100",
+    "gold": "147",
+    "fleeChance": "17%",
+    "actions": [
+      "16,6d8,thunder",
+      "11,2d8,piercing"
+    ]
+  },
+  {
+    "name": "Sea Hag",
+    "hp": "52",
+    "ac": "14",
+    "xp": "450",
+    "gold": "405",
+    "fleeChance": "5%",
+    "actions": [
+      "16,1d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Sea Horse",
+    "hp": "1",
+    "ac": "11",
+    "xp": "10",
+    "gold": "6",
+    "fleeChance": "24%",
+    "actions": [
+      "14,1d20,thunder"
+    ]
+  },
+  {
+    "name": "Shadow",
+    "hp": "16",
+    "ac": "12",
+    "xp": "100",
+    "gold": "111",
+    "fleeChance": "19%",
+    "actions": [
+      "13,3d6,piercing"
+    ]
+  },
+  {
+    "name": "Shambling Mound",
+    "hp": "136",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "351",
+    "fleeChance": "22%",
+    "actions": [
+      "15,6d10,radiant",
+      "10,3d12,thunder"
+    ]
+  },
+  {
+    "name": "Shield Guardian",
+    "hp": "142",
+    "ac": "17",
+    "xp": "2,900",
+    "gold": "825",
+    "fleeChance": "20%",
+    "actions": [
+      "19,2d8,force",
+      "14,8d6,acid",
+      "9,2d20,acid",
+      "4,2d4,bludgeoning",
+      "-1,2d4,force"
+    ]
+  },
+  {
+    "name": "Shrieker",
+    "hp": "13",
+    "ac": "5",
+    "xp": "10",
+    "gold": "59",
+    "fleeChance": "7%",
+    "actions": [
+      "5,2d12,fire"
+    ]
+  },
+  {
+    "name": "Silver Dragon Wyrmling",
+    "hp": "45",
+    "ac": "17",
+    "xp": "450",
+    "gold": "337",
+    "fleeChance": "19%",
+    "actions": [
+      "20,7d8,bludgeoning"
+    ]
+  },
+  {
+    "name": "Skeleton",
+    "hp": "13",
+    "ac": "13",
+    "xp": "50",
+    "gold": "40",
+    "fleeChance": "16%",
+    "actions": [
+      "16,5d4,radiant"
+    ]
+  },
+  {
+    "name": "Solar",
+    "hp": "243",
+    "ac": "21",
+    "xp": "33,000",
+    "gold": "1183",
+    "fleeChance": "17%",
+    "actions": [
+      "23,5d12,radiant",
+      "18,4d4,acid",
+      "13,9d8,lightning"
+    ]
+  },
+  {
+    "name": "Spectator",
+    "hp": "39",
+    "ac": "14",
+    "xp": "700",
+    "gold": "153",
+    "fleeChance": "13%",
+    "actions": [
+      "14,4d20,slashing"
+    ]
+  },
+  {
+    "name": "Specter",
+    "hp": "22",
+    "ac": "12",
+    "xp": "200",
+    "gold": "116",
+    "fleeChance": "11%",
+    "actions": [
+      "15,1d6,lightning"
+    ]
+  },
+  {
+    "name": "Spider",
+    "hp": "1",
+    "ac": "12",
+    "xp": "10",
+    "gold": "9",
+    "fleeChance": "16%",
+    "actions": [
+      "12,4d4,bludgeoning"
+    ]
+  },
+  {
+    "name": "Spirit Naga",
+    "hp": "75",
+    "ac": "15",
+    "xp": "3,900",
+    "gold": "290",
+    "fleeChance": "23%",
+    "actions": [
+      "17,7d6,fire"
+    ]
+  },
+  {
+    "name": "Sprite",
+    "hp": "2",
+    "ac": "15",
+    "xp": "50",
+    "gold": "11",
+    "fleeChance": "17%",
+    "actions": [
+      "15,7d6,necrotic"
+    ]
+  },
+  {
+    "name": "Spy",
+    "hp": "27",
+    "ac": "12",
+    "xp": "200",
+    "gold": "230",
+    "fleeChance": "6%",
+    "actions": [
+      "12,2d12,piercing",
+      "7,5d4,slashing",
+      "2,4d6,slashing",
+      "-3,5d10,cold"
+    ]
+  },
+  {
+    "name": "Steam Mephit",
+    "hp": "21",
+    "ac": "10",
+    "xp": "50",
+    "gold": "75",
+    "fleeChance": "20%",
+    "actions": [
+      "12,4d12,fire"
+    ]
+  },
+  {
+    "name": "Stirge",
+    "hp": "2",
+    "ac": "14",
+    "xp": "25",
+    "gold": "8",
+    "fleeChance": "14%",
+    "actions": [
+      "16,7d8,cold"
+    ]
+  },
+  {
+    "name": "Stone Giant",
+    "hp": "126",
+    "ac": "17",
+    "xp": "2,900",
+    "gold": "760",
+    "fleeChance": "2%",
+    "actions": [
+      "17,8d10,poison",
+      "12,3d20,force",
+      "7,7d20,fire"
+    ]
+  },
+  {
+    "name": "Stone Golem",
+    "hp": "178",
+    "ac": "17",
+    "xp": "5,900",
+    "gold": "1317",
+    "fleeChance": "19%",
+    "actions": [
+      "20,7d4,fire",
+      "15,3d8,poison",
+      "10,5d8,thunder",
+      "5,7d20,bludgeoning",
+      "0,1d10,thunder"
+    ]
+  },
+  {
+    "name": "Storm Giant",
+    "hp": "230",
+    "ac": "16",
+    "xp": "10,000",
+    "gold": "2360",
+    "fleeChance": "8%",
+    "actions": [
+      "18,4d10,fire",
+      "13,4d8,fire",
+      "8,7d12,poison",
+      "3,7d20,bludgeoning",
+      "-2,8d20,acid"
+    ]
+  },
+  {
+    "name": "Succubus/Incubus",
+    "hp": "66",
+    "ac": "15",
+    "xp": "1,100",
+    "gold": "215",
+    "fleeChance": "6%",
+    "actions": [
+      "18,1d12,piercing"
+    ]
+  },
+  {
+    "name": "Swarm of Bats",
+    "hp": "22",
+    "ac": "12",
+    "xp": "50",
+    "gold": "59",
+    "fleeChance": "7%",
+    "actions": [
+      "14,2d12,fire"
+    ]
+  },
+  {
+    "name": "Swarm of Insects",
+    "hp": "22",
+    "ac": "12",
+    "xp": "100",
+    "gold": "31",
+    "fleeChance": "6%",
+    "actions": [
+      "15,5d6,poison"
+    ]
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "hp": "36",
+    "ac": "14",
+    "xp": "450",
+    "gold": "194",
+    "fleeChance": "19%",
+    "actions": [
+      "16,2d8,lightning"
+    ]
+  },
+  {
+    "name": "Swarm of Quippers",
+    "hp": "28",
+    "ac": "13",
+    "xp": "200",
+    "gold": "303",
+    "fleeChance": "19%",
+    "actions": [
+      "15,5d6,poison"
+    ]
+  },
+  {
+    "name": "Swarm of Rats",
+    "hp": "24",
+    "ac": "10",
+    "xp": "50",
+    "gold": "191",
+    "fleeChance": "20%",
+    "actions": [
+      "12,1d10,necrotic"
+    ]
+  },
+  {
+    "name": "Swarm of Ravens",
+    "hp": "24",
+    "ac": "12",
+    "xp": "50",
+    "gold": "28",
+    "fleeChance": "9%",
+    "actions": [
+      "14,1d8,thunder"
+    ]
+  },
+  {
+    "name": "Tarrasque",
+    "hp": "676",
+    "ac": "25",
+    "xp": "155,000",
+    "gold": "3927",
+    "fleeChance": "9%",
+    "actions": [
+      "26,3d12,radiant",
+      "21,11d6,force",
+      "16,1d12,poison",
+      "11,12d12,piercing"
+    ]
+  },
+  {
+    "name": "Thug",
+    "hp": "32",
+    "ac": "11",
+    "xp": "100",
+    "gold": "111",
+    "fleeChance": "13%",
+    "actions": [
+      "11,4d20,piercing",
+      "6,2d4,thunder",
+      "1,4d4,slashing"
+    ]
+  },
+  {
+    "name": "Tiger",
+    "hp": "37",
+    "ac": "12",
+    "xp": "200",
+    "gold": "64",
+    "fleeChance": "7%",
+    "actions": [
+      "14,6d20,poison"
+    ]
+  },
+  {
+    "name": "Treant",
+    "hp": "138",
+    "ac": "16",
+    "xp": "5,000",
+    "gold": "1375",
+    "fleeChance": "21%",
+    "actions": [
+      "18,7d20,thunder",
+      "13,2d6,fire"
+    ]
+  },
+  {
+    "name": "Tribal Warrior",
+    "hp": "11",
+    "ac": "12",
+    "xp": "25",
+    "gold": "55",
+    "fleeChance": "25%",
+    "actions": [
+      "12,2d10,acid"
+    ]
+  },
+  {
+    "name": "Triceratops",
+    "hp": "95",
+    "ac": "13",
+    "xp": "1,800",
+    "gold": "573",
+    "fleeChance": "24%",
+    "actions": [
+      "15,3d10,force"
+    ]
+  },
+  {
+    "name": "Troll",
+    "hp": "84",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "451",
+    "fleeChance": "9%",
+    "actions": [
+      "16,4d4,radiant",
+      "11,4d12,fire"
+    ]
+  },
+  {
+    "name": "Twig Blight",
+    "hp": "4",
+    "ac": "13",
+    "xp": "25",
+    "gold": "15",
+    "fleeChance": "6%",
+    "actions": [
+      "16,1d8,fire"
+    ]
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "hp": "136",
+    "ac": "13",
+    "xp": "3,900",
+    "gold": "479",
+    "fleeChance": "8%",
+    "actions": [
+      "16,5d10,force",
+      "11,5d20,force",
+      "6,4d4,poison",
+      "1,1d12,necrotic"
+    ]
+  },
+  {
+    "name": "Unicorn",
+    "hp": "67",
+    "ac": "12",
+    "xp": "1,800",
+    "gold": "547",
+    "fleeChance": "19%",
+    "actions": [
+      "13,3d20,force",
+      "8,3d8,force",
+      "3,4d12,force",
+      "-2,4d8,piercing",
+      "-7,3d20,thunder"
+    ]
+  },
+  {
+    "name": "Vampire",
+    "hp": "144",
+    "ac": "16",
+    "xp": "10,000",
+    "gold": "1561",
+    "fleeChance": "22%",
+    "actions": [
+      "16,6d6,piercing",
+      "11,3d8,necrotic"
+    ]
+  },
+  {
+    "name": "Vampire Spawn",
+    "hp": "82",
+    "ac": "15",
+    "xp": "1,800",
+    "gold": "168",
+    "fleeChance": "13%",
+    "actions": [
+      "16,6d20,bludgeoning",
+      "11,6d4,poison"
+    ]
+  },
+  {
+    "name": "Veteran",
+    "hp": "58",
+    "ac": "17",
+    "xp": "700",
+    "gold": "174",
+    "fleeChance": "3%",
+    "actions": [
+      "18,2d10,lightning",
+      "13,3d20,psychic"
+    ]
+  },
+  {
+    "name": "Violet Fungus",
+    "hp": "18",
+    "ac": "5",
+    "xp": "50",
+    "gold": "23",
+    "fleeChance": "4%",
+    "actions": [
+      "7,2d6,psychic",
+      "2,1d8,force",
+      "-3,2d10,bludgeoning",
+      "-8,1d12,radiant",
+      "-13,1d20,fire"
+    ]
+  },
+  {
+    "name": "Vrock",
+    "hp": "104",
+    "ac": "15",
+    "xp": "2,300",
+    "gold": "785",
+    "fleeChance": "12%",
+    "actions": [
+      "16,7d4,fire",
+      "11,2d20,fire",
+      "6,7d20,slashing",
+      "1,1d10,lightning",
+      "-4,2d4,force"
+    ]
+  },
+  {
+    "name": "Vulture",
+    "hp": "5",
+    "ac": "10",
+    "xp": "10",
+    "gold": "13",
+    "fleeChance": "5%",
+    "actions": [
+      "12,5d4,force"
+    ]
+  },
+  {
+    "name": "Warhorse",
+    "hp": "19",
+    "ac": "11",
+    "xp": "100",
+    "gold": "158",
+    "fleeChance": "22%",
+    "actions": [
+      "12,5d8,necrotic"
+    ]
+  },
+  {
+    "name": "Warhorse Skeleton",
+    "hp": "22",
+    "ac": "13",
+    "xp": "100",
+    "gold": "175",
+    "fleeChance": "9%",
+    "actions": [
+      "14,2d6,radiant"
+    ]
+  },
+  {
+    "name": "Water Elemental",
+    "hp": "114",
+    "ac": "14",
+    "xp": "1,800",
+    "gold": "381",
+    "fleeChance": "24%",
+    "actions": [
+      "15,3d12,lightning",
+      "10,1d12,lightning",
+      "5,4d20,slashing",
+      "0,4d10,force"
+    ]
+  },
+  {
+    "name": "Weasel",
+    "hp": "1",
+    "ac": "13",
+    "xp": "10",
+    "gold": "7",
+    "fleeChance": "6%",
+    "actions": [
+      "14,4d8,thunder"
+    ]
+  },
+  {
+    "name": "Werebear",
+    "hp": "135",
+    "ac": "10",
+    "xp": "1,800",
+    "gold": "468",
+    "fleeChance": "13%",
+    "actions": [
+      "13,5d10,necrotic",
+      "8,2d20,force"
+    ]
+  },
+  {
+    "name": "Wereboar",
+    "hp": "78",
+    "ac": "10",
+    "xp": "1,100",
+    "gold": "167",
+    "fleeChance": "16%",
+    "actions": [
+      "11,5d10,force",
+      "6,5d12,cold",
+      "1,5d8,cold"
+    ]
+  },
+  {
+    "name": "Wererat",
+    "hp": "33",
+    "ac": "12",
+    "xp": "450",
+    "gold": "236",
+    "fleeChance": "14%",
+    "actions": [
+      "15,3d12,psychic",
+      "10,5d8,poison",
+      "5,1d20,cold",
+      "0,3d20,poison",
+      "-5,3d8,poison"
+    ]
+  },
+  {
+    "name": "Weretiger",
+    "hp": "120",
+    "ac": "12",
+    "xp": "1,100",
+    "gold": "212",
+    "fleeChance": "22%",
+    "actions": [
+      "14,1d10,force",
+      "9,2d12,bludgeoning",
+      "4,5d10,poison"
+    ]
+  },
+  {
+    "name": "Werewolf",
+    "hp": "58",
+    "ac": "11",
+    "xp": "700",
+    "gold": "363",
+    "fleeChance": "14%",
+    "actions": [
+      "13,5d6,fire",
+      "8,1d8,piercing",
+      "3,1d8,poison"
+    ]
+  },
+  {
+    "name": "White Dragon Wyrmling",
+    "hp": "32",
+    "ac": "16",
+    "xp": "450",
+    "gold": "71",
+    "fleeChance": "20%",
+    "actions": [
+      "18,8d12,bludgeoning"
+    ]
+  },
+  {
+    "name": "Wight",
+    "hp": "45",
+    "ac": "14",
+    "xp": "700",
+    "gold": "359",
+    "fleeChance": "14%",
+    "actions": [
+      "16,1d8,slashing",
+      "11,7d4,thunder",
+      "6,5d12,fire"
+    ]
+  },
+  {
+    "name": "Will-o\u0027-Wisp",
+    "hp": "22",
+    "ac": "19",
+    "xp": "450",
+    "gold": "222",
+    "fleeChance": "13%",
+    "actions": [
+      "20,7d12,psychic"
+    ]
+  },
+  {
+    "name": "Winter Wolf",
+    "hp": "75",
+    "ac": "13",
+    "xp": "700",
+    "gold": "358",
+    "fleeChance": "16%",
+    "actions": [
+      "14,3d12,psychic"
+    ]
+  },
+  {
+    "name": "Wolf",
+    "hp": "11",
+    "ac": "13",
+    "xp": "50",
+    "gold": "69",
+    "fleeChance": "12%",
+    "actions": [
+      "13,3d20,radiant"
+    ]
+  },
+  {
+    "name": "Worg",
+    "hp": "26",
+    "ac": "13",
+    "xp": "100",
+    "gold": "110",
+    "fleeChance": "1%",
+    "actions": [
+      "16,5d10,acid"
+    ]
+  },
+  {
+    "name": "Wraith",
+    "hp": "67",
+    "ac": "13",
+    "xp": "1,800",
+    "gold": "401",
+    "fleeChance": "12%",
+    "actions": [
+      "13,3d20,cold"
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "hp": "110",
+    "ac": "13",
+    "xp": "2,300",
+    "gold": "149",
+    "fleeChance": "18%",
+    "actions": [
+      "13,3d4,cold",
+      "8,4d10,radiant"
+    ]
+  },
+  {
+    "name": "Xorn",
+    "hp": "73",
+    "ac": "19",
+    "xp": "1,800",
+    "gold": "698",
+    "fleeChance": "5%",
+    "actions": [
+      "22,6d8,piercing",
+      "17,4d4,fire",
+      "12,1d8,thunder",
+      "7,2d12,slashing",
+      "2,6d20,thunder"
+    ]
+  },
+  {
+    "name": "Yeti",
+    "hp": "51",
+    "ac": "12",
+    "xp": "700",
+    "gold": "332",
+    "fleeChance": "13%",
+    "actions": [
+      "14,5d6,slashing",
+      "9,2d20,slashing"
+    ]
+  },
+  {
+    "name": "Young Black Dragon",
+    "hp": "127",
+    "ac": "18",
+    "xp": "2,900",
+    "gold": "514",
+    "fleeChance": "22%",
+    "actions": [
+      "20,4d12,acid",
+      "15,8d12,lightning",
+      "10,6d4,acid"
+    ]
+  },
+  {
+    "name": "Young Blue Dragon",
+    "hp": "152",
+    "ac": "18",
+    "xp": "5,000",
+    "gold": "844",
+    "fleeChance": "17%",
+    "actions": [
+      "19,4d10,psychic",
+      "14,8d10,fire"
+    ]
+  },
+  {
+    "name": "Young Brass Dragon",
+    "hp": "110",
+    "ac": "17",
+    "xp": "2,300",
+    "gold": "411",
+    "fleeChance": "18%",
+    "actions": [
+      "19,8d10,necrotic",
+      "14,6d10,acid",
+      "9,2d20,cold",
+      "4,6d8,acid",
+      "-1,8d4,fire"
+    ]
+  },
+  {
+    "name": "Young Bronze Dragon",
+    "hp": "142",
+    "ac": "18",
+    "xp": "3,900",
+    "gold": "713",
+    "fleeChance": "7%",
+    "actions": [
+      "21,1d12,cold",
+      "16,4d10,slashing"
+    ]
+  },
+  {
+    "name": "Young Copper Dragon",
+    "hp": "119",
+    "ac": "17",
+    "xp": "2,900",
+    "gold": "833",
+    "fleeChance": "1%",
+    "actions": [
+      "19,6d12,lightning",
+      "14,8d6,thunder",
+      "9,1d20,piercing",
+      "4,7d10,bludgeoning"
+    ]
+  },
+  {
+    "name": "Young Gold Dragon",
+    "hp": "178",
+    "ac": "18",
+    "xp": "5,900",
+    "gold": "611",
+    "fleeChance": "6%",
+    "actions": [
+      "19,9d8,necrotic",
+      "14,4d4,piercing",
+      "9,9d10,acid",
+      "4,4d6,fire"
+    ]
+  },
+  {
+    "name": "Young Green Dragon",
+    "hp": "136",
+    "ac": "18",
+    "xp": "3,900",
+    "gold": "816",
+    "fleeChance": "22%",
+    "actions": [
+      "20,8d12,force",
+      "15,8d20,acid",
+      "10,8d8,psychic",
+      "5,3d4,lightning"
+    ]
+  },
+  {
+    "name": "Young Red Dragon",
+    "hp": "178",
+    "ac": "18",
+    "xp": "5,900",
+    "gold": "1895",
+    "fleeChance": "24%",
+    "actions": [
+      "20,9d6,fire",
+      "15,3d10,lightning",
+      "10,1d4,psychic",
+      "5,3d4,thunder"
+    ]
+  },
+  {
+    "name": "Young Silver Dragon",
+    "hp": "168",
+    "ac": "18",
+    "xp": "5,000",
+    "gold": "800",
+    "fleeChance": "21%",
+    "actions": [
+      "20,8d12,acid",
+      "15,4d12,force",
+      "10,1d4,slashing",
+      "5,5d8,bludgeoning",
+      "0,9d20,lightning"
+    ]
+  },
+  {
+    "name": "Young White Dragon",
+    "hp": "133",
+    "ac": "17",
+    "xp": "2,300",
+    "gold": "953",
+    "fleeChance": "2%",
+    "actions": [
+      "17,2d6,slashing",
+      "12,3d8,bludgeoning",
+      "7,3d20,psychic"
+    ]
+  },
+  {
+    "name": "Zombie",
+    "hp": "22",
+    "ac": "8",
+    "xp": "50",
+    "gold": "98",
+    "fleeChance": "18%",
+    "actions": [
+      "9,1d8,lightning"
+    ]
+  }
+]
