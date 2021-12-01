@@ -1,5 +1,6 @@
 package Business;
 
+import java.lang.annotation.Target;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -88,7 +89,15 @@ public class BattleManager {
     }
 
     public boolean checkBattleEnded() {
+        //Update monsters that have left the battlefield
+        for (int i = 0; i < monstersTracker.size(); i++)
+        {
+            Monster monster = (Monster)battlefieldCharacters.get(monstersTracker.get(i));
+            if (monster.hasFled()) {monstersTracker.remove(Integer.valueOf(battlefieldCharacters.indexOf(monster)));}
+        }
+
         return (playersTracker.size() == 0 || monstersTracker.size() == 0);
+        //Check
     }
 
     private Entity chooseTarget(Entity origin)
@@ -108,28 +117,32 @@ public class BattleManager {
         roundResults = "";
         charTurn = charTurn % battlefieldCharacters.size();
         Entity entity = battlefieldCharacters.get(charTurn);        //Current entities turn
-        if (entity.getHp() <= 0) {
-            return null;
-        }                     //If the entity is dead we don't do anything
+        if (entity.getHp() <= 0) {return null;}                     //If the entity is dead we don't do anything
         String result = "Turn of: " + entity.getName();             //First thing to add is players turn message
         Entity target;                                              //Target that the entity is attacking to
-        //We do remove of both!! if it doesn't exist shouldn't delete anything! check
+
         int actionCounter = 0;
-        while (!result.equals(ALL_ACTIONS_DONE)) {
-            if (checkBattleEnded()) {
-                return roundResults;
-            }
-            roundResults = roundResults.concat(result + "\n");
-            target = chooseTarget(entity);                //FIX
-            result = entity.doAction(target, actionCounter); //FIX!
+        while (!result.contains(ALL_ACTIONS_DONE)) {
+            roundResults = roundResults.concat(result + "\n");      //We add the fight results to the results buffer
+            if (checkBattleEnded()) {return roundResults;}
+            target = chooseTarget(entity);                          //Select random target enemy, based of the instance type of entity
+            result = entity.doAction(target, actionCounter);
             actionCounter++;
             if (target.getHp() <= 0) {
+                //We do remove of both!! if it doesn't exist shouldn't delete anything :D
                 monstersTracker.remove(Integer.valueOf(battlefieldCharacters.indexOf(target)));
                 playersTracker.remove(Integer.valueOf(battlefieldCharacters.indexOf(target)));
-                roundResults = result.concat("\n" + entity.getName() + " killed " + target.getName());
+                result = result.concat("\n" + entity.getName() + " killed " + target.getName());
             }
         }
-        entity.classAbility();
+        checkBattleEnded(); //Double check for fled monsters;
+        roundResults = roundResults.concat(entity.classAbility(battlefieldCharacters, monstersTracker));
         return roundResults;
     }
+
+    public ArrayList<Entity> getBattlefield()
+    {
+        return battlefieldCharacters;
+    }
+
 }

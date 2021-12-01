@@ -18,10 +18,8 @@ public class UiManager {
     static private final String FILE_NOT_FOUND = "Players Json file not found.";
     static private final String DELIMITER_MONSTERS = ";";
     static private final String DELIMITER_NAME_NUMBER = "-";
-    static private final String SIMULATION_SETTINGS =   "Please insert simulation settings: \n" +
-                                                        "Example: numMonster1-Nom1;numMonster2-Nom2;...;numMonsterN-NomN";
-    static private final String WRONG_INPUT_NUMBER_OF_MONSTERS = "Not valid input in number of monsters.";
-    static private final String WRONG_SEPERATOR = "Wrong number to name of monsters seperator.";
+    static private final String SIMULATION_SETTINGS =   "Please enter monsters:";
+    static private final String ERROR_READING = "Error: Reading monsters";
     static private final String EXIT_COMMAND = "exit";
     static private final String EXIT_MESSAGE = "Shutting down...";
     private static final String SIMULATION_RESULT = "Simulation result:";
@@ -33,19 +31,16 @@ public class UiManager {
     {
         reader =  new BufferedReader(new InputStreamReader(System.in));
     }
-
     public void showMainMenu()
     {
         System.out.println(MAIN_MENU_MESSAGE);
     }
-
     public int askForInputInt(int maxNumber) {
         // Enter data using BufferReader
         String name;
         while (true) {
             try {
                 // Reading data using readLine
-                System.out.print("Input: ");
                 name = reader.readLine();
                 try
                 {
@@ -76,19 +71,19 @@ public class UiManager {
                     try {
                         monsterQuantity = Integer.parseInt(monsterParse[0]);
                     } catch (NumberFormatException io) {
-                        System.out.println(WRONG_INPUT_NUMBER_OF_MONSTERS);
+                        System.out.println(ERROR_READING);
                         return false;
                     }
                     selectedMonsters.put(monsterParse[1], monsterQuantity);
                 }
                 else {
-                    System.out.println(WRONG_SEPERATOR);
-                    System.out.println(); return false;}
+                    System.out.println(ERROR_READING);
+                    return false;}
             }
             return true;
         }
         else {
-            System.out.println(WRONG_SEPERATOR);
+            System.out.println(ERROR_READING);
             return false;
         }
     }
@@ -101,7 +96,6 @@ public class UiManager {
         String simulationInput = null;
         try {
             // Reading data using readLine
-            System.out.print("Input: ");
             simulationInput = reader.readLine();
 
         } catch (IOException io) {
@@ -127,7 +121,9 @@ public class UiManager {
     public void showResults(ArrayList<String> results) {
         if (results.get(0) != null)
         {
-            System.out.println(results.get(0));
+            for (String result : results) {
+                System.out.println(result);
+            }
         }
     }
 
@@ -141,8 +137,6 @@ public class UiManager {
                 results.add(result);
             }
         }
-
-        System.out.println();
         System.out.println(SIMULATION_RESULT);
         for (String result : results) {
             System.out.println(result);

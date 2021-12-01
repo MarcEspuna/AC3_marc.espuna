@@ -1,5 +1,7 @@
 package Business;
 
+import java.util.ArrayList;
+
 public class Cleric extends Player{
 
 
@@ -10,11 +12,9 @@ public class Cleric extends Player{
 
 
     @Override
-    public void classAbility()
+    public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
     {
-
+        return new String("");
     }
-
-
-
 }
+

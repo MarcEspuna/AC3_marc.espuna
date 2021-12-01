@@ -1,5 +1,7 @@
 package Business;
 
+import java.util.ArrayList;
+
 public class Rogue extends Player{
 
 
@@ -9,11 +11,12 @@ public class Rogue extends Player{
 
 
 
-    @Override
-    public void classAbility()
+    public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
     {
 
+        return new String("");
     }
-
-
 }
+
+
+

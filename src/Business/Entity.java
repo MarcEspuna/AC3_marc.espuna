@@ -2,9 +2,10 @@ package Business;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.Random;
 
-public abstract class Entity {
+public class Entity {
 
     protected String name;
     protected int hp;
@@ -55,9 +56,14 @@ public abstract class Entity {
         return currentHp;
     }
 
-    public void damage(int i) {
+    public boolean damage(int i) {
         currentHp -= i;
-        if (currentHp < 0) currentHp = 0;
+        if (currentHp < 0)
+        {
+            currentHp = 0;
+            return true;
+        }
+        return false;
     }
 
     protected String[] actionParser(String theAction)
@@ -111,9 +117,10 @@ public abstract class Entity {
         return gold;
     }
 
-    public void classAbility()
+    public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
     {
 
+        return new String();
     }
 }
 
