@@ -94,7 +94,7 @@ public abstract class Entity {
 
     protected String entityMissed(int hitPoints, int ac, Entity target)
     {
-        return name + " missed with: " + hitPoints + " against " + target.getName() + "  with ac of " + target.getAc();
+        return name + " missed with: " + hitPoints + " against " + target.getName() + " with ac of " + target.getAc();
     }
 
     protected int getAc()
@@ -109,6 +109,11 @@ public abstract class Entity {
     public int getGold()
     {
         return gold;
+    }
+
+    public void classAbility()
+    {
+
     }
 }
 

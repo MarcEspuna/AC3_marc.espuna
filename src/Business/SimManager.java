@@ -8,6 +8,7 @@ import java.util.*;
 
 public class SimManager {
 
+    private BattleManager battleManager;
     static private final String ALL_ACTIONS_DONE = "over";
     private ArrayList<Monster> monsters;                        //All monsters loaded from Json
     private ArrayList<Player> players;                          //All players loaded from Json
@@ -29,6 +30,7 @@ public class SimManager {
         roundResults = new ArrayList<>();
         monstersTracker = new ArrayList<>();
         playersTracker = new ArrayList<>();
+        battleManager = new BattleManager();
     }
 
     //IT loads up the simulation data from the Json files.
@@ -45,10 +47,13 @@ public class SimManager {
 
     public void startBattle(HashMap<String, Integer> selectedMonsters) {
         //Generate a list of all the characters that will appear in the battlefield
+        battleManager.generateCharacters(selectedMonsters, monsters, players);
         generateCharacters(selectedMonsters);
         //We sort the list based of the random points that have been assigned
+        battleManager.initiativeList();
         initiativeList();
         //We set the index arrays to track witch characters are monsters and which are players as well as knowing they are alive
+        battleManager.setTrackers();
         setTrackers();
 
     }
@@ -58,8 +63,8 @@ public class SimManager {
         clearResults();
         charTurn = charTurn % battlefieldCharacters.size();
         Entity entity = battlefieldCharacters.get(charTurn);
-        if(checkBattleEnded()) { return true;}
-        else if (entity.getHp() <= 0) {return false;}
+        //if(checkBattleEnded()) { return true;}
+        if (entity.getHp() <= 0) {return false;}
         if (entity instanceof Player)
         {
 
@@ -98,6 +103,20 @@ public class SimManager {
         return false;
     }
 
+
+    public boolean nextFightV2(int charTurn)
+    {
+        clearResults();
+        String battleResults = battleManager.fight(charTurn);
+        addResults(battleResults);
+        return battleManager.checkBattleEnded();
+    }
+
+
+
+
+
+
     private Player choosePlayerTarget() {
         int playerIndex;
         if(playersTracker.size() > 1) playerIndex = playersTracker.get(random.nextInt(playersTracker.size()-1));
@@ -112,7 +131,7 @@ public class SimManager {
         return (Monster)battlefieldCharacters.get(monsterIndex);
     }
 
-    private boolean checkBattleEnded() {
+    public boolean checkBattleEnded() {
         return (playersTracker.size() == 0 || monstersTracker.size() == 0);
     }
 

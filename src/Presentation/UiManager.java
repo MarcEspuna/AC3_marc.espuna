@@ -125,10 +125,9 @@ public class UiManager {
     }
 
     public void showResults(ArrayList<String> results) {
-        if (results.size() == 0) {return;}
-        System.out.println();
-        for (String result : results) {
-            System.out.println(result);
+        if (results.get(0) != null)
+        {
+            System.out.println(results.get(0));
         }
     }
 

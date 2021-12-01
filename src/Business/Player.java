@@ -27,6 +27,7 @@ public class Player extends Entity{
         return healingFactor;
     }
 
+    @Override
     public void classAbility()
     {
 

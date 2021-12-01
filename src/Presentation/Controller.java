@@ -51,7 +51,7 @@ public class Controller {
                 sManager.startBattle(selectedMonsters);
                 while (!fightEnded)
                 {
-                    fightEnded = sManager.nextFight(fightRound);
+                    fightEnded = sManager.nextFightV2(fightRound);
                     uiManager.showResults(sManager.getResults());
                     fightRound++;
                 }
