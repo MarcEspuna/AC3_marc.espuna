@@ -57,6 +57,13 @@ public class Controller {
                 }
                 uiManager.showSimulationResults(sManager.getBattlefield());
 
+                if (uiManager.askForWritingResults())
+                {
+                    String file = uiManager.getStringInput();
+                    sManager.writeResultsTo(file);
+                }
+
+
             }
             else{
                 uiManager.fileNotFoundError();

@@ -63,4 +63,8 @@ public class SimManager {
     public ArrayList<Entity> getBattlefield() {
         return battleManager.getBattlefield();
     }
+
+    public void writeResultsTo(String file) {
+        playerDAO.writeResultsTo(getBattlefield(), file);
+    }
 }

@@ -1,6 +1,8 @@
 package Business;
 
 import com.google.gson.annotations.SerializedName;
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -9,12 +11,12 @@ public class Entity {
 
     protected String name;
     protected int hp;
-    protected int currentHp;
+    transient protected int currentHp;
     protected int ac;
     protected String xp;
     protected int gold;
     protected String[] actions;
-    protected int randomNumber;
+    transient protected int randomNumber;
     protected static final Random random = new Random();
 
     public Entity(Entity entity)
@@ -119,8 +121,11 @@ public class Entity {
 
     public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
     {
+        return new String("");
+    }
 
-        return new String();
+    public void setHp(int currentHp) {
+        this.hp = currentHp;
     }
 }
 

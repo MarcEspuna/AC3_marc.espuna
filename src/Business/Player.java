@@ -4,7 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 import java.text.NumberFormat;
 import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.Locale;
 
 public class Player extends Entity{
@@ -21,7 +20,7 @@ public class Player extends Entity{
     protected String playerType;
     @SerializedName(value = "Potion Charges")
     protected int potionCharges;
-    protected boolean healed;
+    transient protected boolean healed;
 
     public String classType() {
         return playerType;
@@ -69,7 +68,7 @@ public class Player extends Entity{
 
 
 
-    private void stealResources(Entity character) {
+    protected void stealResources(Entity character) {
         this.gold += character.getGold();
         try {
             Number currentXp = NumberFormat.getNumberInstance(java.util.Locale.US).parse(character.getXp());

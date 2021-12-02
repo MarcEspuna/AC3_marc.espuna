@@ -22,7 +22,7 @@ public class UiManager {
     static private final String ERROR_READING = "Error: Reading monsters";
     static private final String EXIT_COMMAND = "exit";
     static private final String EXIT_MESSAGE = "Shutting down...";
-    private static final String SIMULATION_RESULT = "Simulation result:";
+    private static final String SIMULATION_RESULT = "Result of simulation:";
 
 
     BufferedReader reader;
@@ -141,5 +141,34 @@ public class UiManager {
         for (String result : results) {
             System.out.println(result);
         }
+    }
+
+    public boolean askForWritingResults() {
+        System.out.println("Would you like to save the player state? (yes/no)");
+        String input;
+        while (true) {
+            try {
+                // Reading data using readLine
+                input = reader.readLine();
+
+            } catch (IOException io) {
+                System.out.println("IOException.");
+                return false;
+            }
+            if (input.equals("yes")) return true;
+            else if (input.equals("no")) return false;
+            System.out.println("Not valid input. (yes/no)");
+        }
+    }
+
+    public String getStringInput() {
+        System.out.println("Enter name of file:");
+        String input = null;
+        try {
+            input = reader.readLine();
+        } catch (IOException io) {
+            System.out.println("IOException.");
+        }
+        return input;
     }
 }

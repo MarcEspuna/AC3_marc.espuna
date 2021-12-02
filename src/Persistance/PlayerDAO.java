@@ -1,12 +1,12 @@
 package Persistance;
 
 import Business.*;
+import com.github.lbovolini.mapper.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonIOException;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.Reader;
+import java.io.*;
 import java.util.ArrayList;
 
 public class PlayerDAO {
@@ -20,6 +20,7 @@ public class PlayerDAO {
         Reader reader = new FileReader("JsonFiles/Players.json");
 
         Player[] players = gson.fromJson(reader, Player[].class);
+
 
         return organizePlayers(players);
     }
@@ -53,6 +54,37 @@ public class PlayerDAO {
     return allPlayers;
     }
 
+    public void writeResultsTo(ArrayList<Entity> battlefield, String filename)
+    {
+        deleteMonsters(battlefield);
+        updateHp(battlefield);
+        Gson gson = new GsonBuilder()
+                .setPrettyPrinting()
+                .create();
+
+        try {
+
+            Player[] players = new Player[battlefield.size()];
+            players = battlefield.toArray(players);
+            FileWriter writer = new FileWriter(filename + ".json");
+            gson.toJson(players, writer);
+            writer.flush();
+            writer.close();
+        }catch (IOException io)
+        {
+            io.printStackTrace();
+        }
+    }
+
+    private void updateHp(ArrayList<Entity> battlefield) {
+        for (Entity entity : battlefield) {
+            entity.setHp(entity.getHp());
+        }
+    }
+
+    private void deleteMonsters(ArrayList<Entity> battlefield) {
+        battlefield.removeIf(entity -> entity instanceof Monster);
+    }
 
 
 }

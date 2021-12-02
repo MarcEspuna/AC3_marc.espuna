@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="io.github.openfeign.feign.gson" level="project" />
+    <orderEntry type="library" name="github.lbovolini.ObjectMapper" level="project" />
+    <orderEntry type="library" name="codehaus.jackson.mapper.asl" level="project" />
   </component>
 </module>

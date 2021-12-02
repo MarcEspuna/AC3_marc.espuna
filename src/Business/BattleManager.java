@@ -1,10 +1,7 @@
 package Business;
 
 import java.lang.annotation.Target;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Random;
+import java.util.*;
 
 public class BattleManager {
     private static final String ALL_ACTIONS_DONE = "over";
@@ -14,13 +11,21 @@ public class BattleManager {
     private String roundResults;
     private final Random random;
 
-    BattleManager() {
+
+
+    public BattleManager() {
         battlefieldCharacters = new ArrayList<>();
         monstersTracker = new ArrayList<>();
         playersTracker = new ArrayList<>();
         random = new Random();
     }
 
+    private void swap (ArrayList<Entity> arr, int index1, int index2)
+    {
+        Entity tmp = arr.get(index1);
+        arr.set(index1, arr.get(index2));
+        arr.set(index2, arr.get(index1));
+    }
 
     public void initiativeList() {
         //Generate random numbers for each character in the battlefield
@@ -30,6 +35,29 @@ public class BattleManager {
 
         //Lambda expression to sort based of the random value generated
         battlefieldCharacters.sort(Comparator.comparingInt(x -> x.randomNumber));
+        //We make it descending order
+        Collections.reverse(battlefieldCharacters);
+
+        for (Entity battlefieldCharacter : battlefieldCharacters) {
+            System.out.println("Character: " + battlefieldCharacter.getName() + " Point: " + battlefieldCharacter.randomNumber);
+        }
+
+        for (int i = 0; i < battlefieldCharacters.size()-1; i++)
+        {
+            Entity firstCharacter = battlefieldCharacters.get(i);
+            Entity secondCharacter = battlefieldCharacters.get(i+1);
+            if (firstCharacter.randomNumber == secondCharacter.randomNumber)
+            {
+                if (firstCharacter instanceof Monster && secondCharacter instanceof Player)
+                {
+                    Collections.swap(battlefieldCharacters, i, i+1);
+                }
+            }
+        }
+
+        for (Entity battlefieldCharacter : battlefieldCharacters) {
+            System.out.println("Character: " + battlefieldCharacter.getName() + " Point: " + battlefieldCharacter.randomNumber);
+        }
 
     }
 
