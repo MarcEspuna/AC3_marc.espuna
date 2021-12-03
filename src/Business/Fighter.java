@@ -7,14 +7,7 @@ public class Fighter extends Player{
         super(player);
     }
 
-
-    @Override
-    public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
-    {
-
-        return new String("");
-    }
-
+    //The class ability is build in the doAction class (it simply has 2 turns)
     @Override
     public String doAction(Entity monster, int actionCounter) {
         if (actionCounter >= actions.length*2 || healed) { healed = false; return "over";}
