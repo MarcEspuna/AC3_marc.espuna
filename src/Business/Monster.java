@@ -1,6 +1,5 @@
 package Business;
 
-import java.util.Random;
 
 public class Monster extends Entity{
 
@@ -40,6 +39,4 @@ public class Monster extends Entity{
         if (fleed) { return  name + " has left the encounter";}
         return super.doAction(character,actionCounter);
     }
-
-
 }

@@ -23,6 +23,7 @@ public class UiManager {
     static private final String EXIT_COMMAND = "exit";
     static private final String EXIT_MESSAGE = "Shutting down...";
     private static final String SIMULATION_RESULT = "Result of simulation:";
+    private static final String BACK_TO_MENU = "Going back to menu";
 
 
     BufferedReader reader;
@@ -72,18 +73,21 @@ public class UiManager {
                         monsterQuantity = Integer.parseInt(monsterParse[0]);
                     } catch (NumberFormatException io) {
                         System.out.println(ERROR_READING);
+                        System.out.println();
                         return false;
                     }
                     selectedMonsters.put(monsterParse[1], monsterQuantity);
                 }
                 else {
                     System.out.println(ERROR_READING);
+                    System.out.println();
                     return false;}
             }
             return true;
         }
         else {
             System.out.println(ERROR_READING);
+            System.out.println();
             return false;
         }
     }
@@ -170,5 +174,9 @@ public class UiManager {
             System.out.println("IOException.");
         }
         return input;
+    }
+
+    public void backToMenu() {
+        System.out.println(BACK_TO_MENU);
     }
 }

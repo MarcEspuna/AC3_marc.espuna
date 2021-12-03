@@ -13,7 +13,7 @@ public class SimManager {
     private ArrayList<Player> players;                          //All players loaded from Json
     private final PlayerDAO playerDAO;
     private final MonsterDAO monsterDAO;
-    private final ArrayList<String> roundResults;
+    private final ArrayList<String> roundResults;               //Buffer to store the results of each fight in order to be shown in real time
 
 
     public SimManager(PlayerDAO playerDAO, MonsterDAO monsterDAO)
@@ -24,7 +24,7 @@ public class SimManager {
         battleManager = new BattleManager();
     }
 
-    //IT loads up the simulation data from the Json files.
+    //If loads up the simulation data from the Json files.
     //Returns true if successful or false if the files are not found.
     public boolean loadSimulation() {
         try {
@@ -35,7 +35,7 @@ public class SimManager {
         return true;
     }
 
-
+    //generates the array of the characters that will fight, chooses the battle order and initialises the trackers
     public void startBattle(HashMap<String, Integer> selectedMonsters) {
         //Generate a list of all the characters that will appear in the battlefield
         battleManager.generateCharacters(selectedMonsters, monsters, players);
@@ -46,7 +46,7 @@ public class SimManager {
 
     }
 
-
+    //Performs the nextFight, if after the fight the battle ends, returns false
     public boolean nextFight(int charTurn)
     {
         clearResults();

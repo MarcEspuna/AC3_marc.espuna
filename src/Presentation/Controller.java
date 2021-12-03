@@ -44,6 +44,7 @@ public class Controller {
                 do {
                     successfulParse = uiManager.simulationInput(selectedMonsters, exitCommand);
                     if (exitCommand[0]) return;
+                    if (!successfulParse) { uiManager.askForSimulationInput();}
                 }while (!successfulParse);
 
                 boolean fightEnded = false;
@@ -62,7 +63,7 @@ public class Controller {
                     String file = uiManager.getStringInput();
                     sManager.writeResultsTo(file);
                 }
-
+                uiManager.backToMenu();
 
             }
             else{

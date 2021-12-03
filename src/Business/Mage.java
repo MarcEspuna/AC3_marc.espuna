@@ -14,7 +14,6 @@ public class Mage extends Player{
     @Override
     public String classAbility(ArrayList<Entity> battleCharacters, ArrayList<Integer> monstersTracker)
     {
-        String result = "";
         if (monstersTracker.size() > 3) {return fireball(battleCharacters, monstersTracker); }
         return new String("");
     }
